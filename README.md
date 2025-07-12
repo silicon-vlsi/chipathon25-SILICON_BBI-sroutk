@@ -52,18 +52,25 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 ### Cell Assignment
 
 - **SILICON_BBI1**
-  - Saroj Rout:  
-  - Vishal Kumar Roy, 3rd Yr UG, ECE
-  - Ananya Satapathy, 3rd Yr UG, ECE
-  - Aditi Patel, 2nd Yr UG, ECE
-  - Subhranshu Das, 3rd Yr, ECE
 
-- **SILICON_BBI2** 
-  - Prasnjit Biswal, 3rd Yr UG, EEE (Tentative Lead)
-  - Bhabisyajit Bal, 2nd Yr UG, EEE
-  - Aditya Pratyush Mohapatra, 3rd Yr UG, ECE
-  - Aditya Sahoo, 2nd Yr UG, ECE
-  - Sonu Singh, 3rd Yr UG, ECE
+| Name | Cell | Track |
+|----------|----------|----------|
+| Saroj Rout    | Data     | Value    |
+| Vishal Roy    | More     | Info     |
+| Ananya Satapathy    | More     | Info     |
+| Aditi Patel    | More     | Info     |
+| Subhranshu Das    | More     | Info     |
+
+- **SILICON_BBI2**
+
+| Name | Cell | Track |
+|----------|----------|----------|
+| Prasnjit Biswal    | Data     | Value    |
+| Bhabisyajit Bal    | More     | Info     |
+| Aditya Pratyush Mohapatra    | More     | Info     |
+| Aditya Sahoo    | More     | Info     |
+| Sonu Singh    | More     | Info     |
+
  
 ### Project Directory Structure
 
