@@ -53,13 +53,13 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 
 - **SILICON_BBI1**
 
-| Name | Cell | Track |
-|----------|----------|----------|
-| Saroj Rout    | Data     | Value    |
-| Vishal Roy    | More     | Info     |
-| Ananya Satapathy    | More     | Info     |
-| Aditi Patel    | More     | Info     |
-| Subhranshu Das    | More     | Info     |
+| Name | Cell | Strength | Track |
+|----------|----------|----------|----------|
+| Saroj Rout    | `DFF with RSTN`  | 1X | 9T |
+| Vishal Roy    | `3-inp NAND`     | 1X | 9T |
+| Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |
+| Aditi Patel    | `2-inp NAND`     | 2X  |  12T |
+| Subhranshu Das    | `2-inp NAND`     | 2X  | 9T |
 
 - **SILICON_BBI2**
 
@@ -67,7 +67,7 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 |----------|----------|----------|
 | Prasnjit Biswal    | Data     | Value    |
 | Bhabisyajit Bal    | More     | Info     |
-| Aditya Pratyush Mohapatra    | More     | Info     |
+| Aditya Mohapatra    | More     | Info     |
 | Aditya Sahoo    | More     | Info     |
 | Sonu Singh    | More     | Info     |
 
