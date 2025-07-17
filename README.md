@@ -59,7 +59,7 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 | Vishal Roy    | `3-inp NAND`     | 1X | 12T |
 | Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |
 | Aditi Patel    | `3-inp NOR`     | 1X  |  12T |
-| Subhranshu Das    | `2-inp NOR`     | 2X  | 9T |
+| Subhranshu Das    | `3-inp AND`     | 2X  | 9T |
 
 
 - **SILICON_BBI2**
@@ -68,10 +68,10 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 | Name | Cell | Strength | Track |
 |----------|----------|----------|----------|
 | Prasnjit Biswal    | `3-inp AND`  | 1X | 12T |
-| Bhabisyajit Bal    | `3-inp NAND`     | 1X | 9T |
+| Bhabisyajit Bal    | `3-inp NAND`     | 2X | 9T |
 | Aditya Mohapatra    | `3-inp OR`    | 1X  | 9T |
 | Aditya Sahoo    | `3-inp OR`     | 1X  |  12T |
-| Sonu Singh    | `3-inp AND`     | 1X  | 9T |
+| Sonu Singh    | `2-inp NOR`     | 2X  | 9T |
 
 ### Project Timeline
 
