@@ -55,10 +55,10 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 
 | Name | Cell | Strength | Track |
 |----------|----------|----------|----------|
-| Saroj Rout    | `DFF with RSTN`  | 1X | 9T |
-| Vishal Roy    | `3-inp NAND`     | 1X | 9T |
+| Saroj Rout    | `lshifup/lshifdown`  | 1X | 9T |
+| Vishal Roy    | `3-inp NAND`     | 1X | 12T |
 | Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |
-| Aditi Patel    | `2-inp NOR`     | 2X  |  12T |
+| Aditi Patel    | `3-inp NOR`     | 1X  |  12T |
 | Subhranshu Das    | `2-inp NOR`     | 2X  | 9T |
 
 
@@ -67,11 +67,11 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 
 | Name | Cell | Strength | Track |
 |----------|----------|----------|----------|
-| Prasnjit Biswal    | `2-inp AND`  | 2X | 12T |
-| Bhabisyajit Bal    | `2-inp NAND`     | 2X | 12T |
-| Aditya Mohapatra    | `2-inp OR`    | 2X  | 9T |
-| Aditya Sahoo    | `2-inp OR`     | 4X  |  12T |
-| Sonu Singh    | `2-inp AND`     | 4X  | 12T |
+| Prasnjit Biswal    | `3-inp AND`  | 1X | 12T |
+| Bhabisyajit Bal    | `3-inp NAND`     | 1X | 9T |
+| Aditya Mohapatra    | `3-inp OR`    | 1X  | 9T |
+| Aditya Sahoo    | `3-inp OR`     | 1X  |  12T |
+| Sonu Singh    | `3-inp AND`     | 1X  | 9T |
 
 ### Project Timeline
 
