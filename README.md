@@ -49,7 +49,7 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 - Level shifters for the 9-track lib
 - DFF with sets only or reset only for 9-track
 
-### Cell Assignment
+### Proposal
 
 - **SILICON_BBI1**
 
@@ -77,8 +77,8 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 
 | Week | Milestone |
 |----------|----------|
-| Wk28: July 11 | Finalized group, Assigned projects to each member |
-| Wk29: July 18 | Test and simulate OSU stdecells, Verify (DRC/LVS) OSU stdcell layout |
+| Wk28: July 11 | ~~Finalized group, Assigned projects to each member~~ |
+| Wk29: July 18 | ~~Test and simulate OSU stdecells~~, Verify (DRC/LVS) OSU stdcell layout |
 | Wk30: July 25 | Start design of assigned cell |
 | Wk31: Aug 1 | characterization (delay, power) using ngspice |
 | Wk32: Aug 8 | Start layout (magic) |
