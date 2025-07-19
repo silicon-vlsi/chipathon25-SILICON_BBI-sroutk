@@ -30,7 +30,11 @@ Both of the groups consists of undergraduate students (2nd and 3rd year) from th
   - Aditya Sahoo, 2nd Yr UG, ECE
   - Sonu Singh, 3rd Yr UG, ECE
 
-
+**POSSIBLE 2-MEMBER GROUPS**
+- Group-1: Anayna and Aditi
+- Group-2: Subhranshu and Prasnjit
+- Group-3: Aditya M. and Aditya S.
+  
 ## Project
 
 **GF180MCU 5V Lib (7T) vs. OSU 3v3 (9T/12T)**
