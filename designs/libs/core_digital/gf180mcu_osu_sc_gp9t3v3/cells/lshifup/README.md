@@ -13,7 +13,7 @@ The **architecture** of the block is a classic _latch-type_ level shifter where,
 
 Since this is a latch, the **analyis** is done to make sure the latch can be flipped when the input is flipped (`0->1` or `1->0`).
 
-As shown in the _figure_, we will analyze for the condition input (`A`) switching from `0 -> 3.3V`. At the moment when the input is switched, **M1: saturation**, **M3: linear** and we need $V_{GS}(M_4) > |V_{tp}|$. Based on typical values, $(W/L)_{1,2} = 0.742 (W\L)_{3,4}$. With some margin we will design with all **equal transistor sizes**. 
+As shown in the _figure_, we will analyze for the condition input (`A`) switching from `0 -> 3.3V`. At the moment when the input is switched, **M1: saturation**, **M3: linear** and we need $V_{GS}(M_4) > |V_{tp}|$. Based on typical values, $(W/L)_1 = 0.742 (W/L)_3$ . With some margin we will design with all **equal transistor sizes**. 
 
 ## Design and Simulation
 
