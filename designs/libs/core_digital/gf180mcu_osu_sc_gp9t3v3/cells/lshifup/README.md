@@ -24,4 +24,5 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 
 **SIMULATION RESULTS**
 
+
 ![PLots](./plot-lshifup.png)
