@@ -24,5 +24,27 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 
 **SIMULATION RESULTS**
 
+**DELAY AND POWER CHARACTERIZATION LEVEL SHIFTER UP**
+
+| Metric | Cl=5f | Cl=10f | Cl=50f |
+|--------|-------|--------|--------|
+| **trise** (10-90%)| 0.15n | 0.24n | 1n |
+| **tfall** (90-10%) | 0.12n | 0.17n | 0.58n |
+| **tdel-rise** (50-50%) | 0.21n | 0.25n | 0.62n |
+| **tdel-fall** (50-50%) | 0.32n | 0.36n | 0.61n |
+| **Ivddh**(avg) | 10uA | 13.2uA | 33uA |
+
+**NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
+
+**DELAY AND POWER CHARACTERIZATION INV_1X (5V)**
+
+
+| Metric | Cl=5f | Cl=10f | Cl=50f |
+|--------|-------|--------|--------|
+| **trise** (10-90%)| 0.12n | 0.22n | 1n |
+| **tfall** (90-10%) | 0.07n | 0.12n | 0.56n |
+| **tdel-rise** (50-50%) | 5n | 5n | 5.6n |
+| **tdel-fall** (50-50%) | -5n | -5n | -4.7n |
+| **Ivddh**(avg) | 3.46uA | 6uA | 25uA |
 
 ![PLots](./plot-lshifup.png)
