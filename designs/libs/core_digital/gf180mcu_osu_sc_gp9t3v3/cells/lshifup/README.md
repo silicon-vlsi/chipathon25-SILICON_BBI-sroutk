@@ -17,6 +17,12 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 
 ## Design and Simulation
 
+**DESIGN FILES**
+
+- [Schematic](./gf180mcu_osu_sc_gp9t3v3_lshifup.sch)
+- [Netlist](./gf180mcu_osu_sc_gp9t3v3_lshifup.spice)
+- [Testbench](../../../../tb_digital/tb_lshifup_9t/tb_gf180mcu_osu_sc_gp9t3v3_lshifup.spice)
+
 **SCHEMATIC**
 
 ![Schematic](./gf180mcu_osu_sc_gp9t3v3_lshifup.png)
@@ -47,4 +53,5 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 | **tdel-fall** (50-50%) | -5n | -5n | -4.7n |
 | **Ivddh**(avg) | 3.46uA | 6uA | 25uA |
 
-![PLots](./plot-lshifup.png)
+![Plots](./plot-lshifup.png)
+
