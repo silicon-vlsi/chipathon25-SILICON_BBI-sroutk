@@ -4,7 +4,7 @@ Designer: Prasnjit Biswal (AND3_1X)
 
 ## Description
 
-![3-input AND Gate Block Diagram and anlaysis](./gf180mcu_osu_sc_gp12t3v3_and3_1.png)
+![3-input AND Gate Block Diagram and anlaysis]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\gf180mcu_osu_sc_gp12t3v3_and3_1.png.png")
 
 The **function** of this block is to pass a digital signal from a **low-voltage** (3.3V) domain to a **high-voltage** (5V) domain. This cell will typically sit on the periphery of the IP do translate signals from one voltage domain to another. 
 
@@ -19,7 +19,7 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 
 **SCHEMATIC**
 
-![Schematic](./gf180mcu_osu_sc_gp12t3v3_and3_1.png)
+![Schematic]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\gf180mcu_osu_sc_gp12t3v3_and3_1.png.png")
 
 
 **SIMULATION RESULTS**
@@ -46,5 +46,5 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 | **tdel-rise** (50-50%) | 5n | 5n | 5.6n |
 | **tdel-fall** (50-50%) | -5n | -5n | -4.7n |
 
-![Plots](./plot-and3_12t.png)
+![Plots]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\plot-and3_12t.png")
 
