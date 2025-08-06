@@ -4,7 +4,7 @@ Designer: Prasnjit Biswal (AND3_1X)
 
 ## Description
 
-![3-input AND Gate Block Diagram and anlaysis]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\gf180mcu_osu_sc_gp12t3v3_and3_1.png.png")
+![3-input AND Gate Block Diagram and anlaysis]("https://github.com/Prasnjitv15/chipathon25-SILICON_BBI-pbiswal/blob/4f0af98a6cd3fb9306bc605c713a2cc3881a2652/gf180mcu_osu_sc_gp12t3v3_and3_1.png")
 
 The **function** of this block is to pass a digital signal from a **low-voltage** (3.3V) domain to a **high-voltage** (5V) domain. This cell will typically sit on the periphery of the IP do translate signals from one voltage domain to another. 
 
