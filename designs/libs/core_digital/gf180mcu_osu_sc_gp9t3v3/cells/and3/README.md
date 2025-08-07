@@ -17,7 +17,7 @@ Designer: Subhransu Das (AND3_2X)
 
 **SIMULATION RESULTS**
 
-**DELAY AND POWER CHARACTERIZATION LEVEL SHIFTER UP**
+**DELAY AND POWER CHARACTERIZATION AND3_2X (3.3V)**
 
 | Metric | Cl=5f | Cl=10f | Cl=50f |
 |--------|-------|--------|--------|
