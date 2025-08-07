@@ -21,16 +21,18 @@ Designer: Subhransu Das (AND3_2X)
 
 | Metric | Cl=5f | Cl=10f | Cl=50f |
 |--------|-------|--------|--------|
-| **trise** (10-90%)|  |  |  |
-| **tfall** (90-10%) |  |  |  |
-| **tdel-rise a** (50-50%) |  |  |  |
-| **tdel-fall a** (50-50%) |  |  |  |
-| **tdel-rise b** (50-50%) |  |  |  |
-| **tdel-fall b** (50-50%) |  |  |  |
-| **tdel-rise c** (50-50%) |  |  |  |
-| **tdel-fall c** (50-50%) |  |  |  |
-| **Ivdd**(avg) |  |  |  |
+| **trise** (10-90%)| 0.11n | 0.12n | 0.31n |
+| **tfall** (90-10%) | 0.07n | 0.09n | 0.23n |
+| **tdel-rise a** (50-50%) | 4.19n | 4.20n | 4.32n |
+| **tdel-fall a** (50-50%) | 4.19n | 4.20n | 4.32n |
+| **tdel-rise b** (50-50%) | 2.19n | 2.20n | 2.32n |
+| **tdel-fall b** (50-50%) | -11.89n | -11.88n | -11.79n |
+| **tdel-rise c** (50-50%) | 0.19n | 0.20n | 0.32n |
+| **tdel-fall c** (50-50%) | -43.89n | -43.88n | -43.79n |
+| **Iavg(Y)** | 1.81A | 1.83A | 1.71A |
 
-- Average current is claculated over a 10 ns period.
+**NOTE** 
+1) Input slew-rate is 1 ps   
+2) Average current is claculated over a 10 ns period
 
 <img width="898" height="678" alt="Screenshot 2025-08-08 001613" src="https://github.com/user-attachments/assets/276ad919-af33-4626-a867-d91302a48514" />
