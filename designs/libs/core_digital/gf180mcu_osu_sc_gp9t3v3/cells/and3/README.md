@@ -12,7 +12,8 @@ Designer: Subhransu Das (AND3_2X)
 
 **SCHEMATIC**
 
-<img width="895" height="603" alt="Screenshot 2025-08-07 011719" src="https://github.com/user-attachments/assets/5dd3f712-8781-4a2f-8957-ce4fcc171935" />
+<img width="1124" height="714" alt="Screenshot 2025-08-08 001027" src="https://github.com/user-attachments/assets/75d27417-a96f-4ce5-b7fb-cae4b7e470d7" />
+
 
 **SIMULATION RESULTS**
 
@@ -32,5 +33,4 @@ Designer: Subhransu Das (AND3_2X)
 
 - Average current is claculated over a 10 ns period.
 
-<img width="888" height="675" alt="Screenshot 2025-08-07 011939" src="https://github.com/user-attachments/assets/076fe68c-738c-4dc2-acfb-3bbbb1584e77" />
-
+<img width="898" height="678" alt="Screenshot 2025-08-08 001613" src="https://github.com/user-attachments/assets/276ad919-af33-4626-a867-d91302a48514" />
