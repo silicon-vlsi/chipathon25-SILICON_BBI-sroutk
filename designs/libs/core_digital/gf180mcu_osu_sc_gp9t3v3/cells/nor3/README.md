@@ -4,6 +4,14 @@ Designer: Ananya Satapathy (NAND3_1X)
 
 
 
+SCHEMATIC:-<img width="427" height="553" alt="3input_nor_schematic" src="https://github.com/user-attachments/assets/eeb2f41e-0146-4b55-9e3a-13bb2fd12ffc" />
+
+WAVEFORM:-<img width="1269" height="691" alt="3input_nor_waveform" src="https://github.com/user-attachments/assets/d77eccfa-4639-4ee5-8756-84b6039311a0" />
+
+
+
+
+
 
 
 
