@@ -1,22 +1,25 @@
-** sch_path: /foss/designs/work/xschem/TBgf180mcu_osu_sc_gp12t3v3_and3_1.sch
-**.subckt TBgf180mcu_osu_sc_gp12t3v3_and3_1
-**** begin user architecture code
-
-
+v {xschem version=3.4.7 file_version=1.2}
+G {}
+K {}
+V {}
+S {}
+E {}
+C {devices/code_shown.sym} 70 -1320 0 0 {name=NGSPICE only_toplevel=true
+value="
 
 ** Testbench for 12tAND3_1X
 
 ** Parameters
 .PARAM VDD=3.3
 .PARAM VSS=0
-.PARAM CLOAD=50f
+.PARAM CLOAD=10f
 .PARAM SLEW=1p
 
 ** 12tAND3_1X Design
-.INCLUDE gf180mcu_osu_sc_gp12t3v3_and3_1.spice
+.INCLUDE "gf180mcu_osu_sc_gp12t3v3_and3_1.spice"
 
 ** Instantiate 12tAND3_1X
-Xand A B Y C VDD VDD VDD VDD VSS VSS gf180mcu_osu_sc_gp12t3v3_and3_1
+Xand A B Y C VDD VDD VDD VDD VSS VSS gf180mcu_osu_sc_gp12t3v3_and3_1 
 ** Load
 Cl 	Y	VSS	CLOAD
 
@@ -54,12 +57,10 @@ plot V(Y) V(A) V(B) V(C)
 .endc
 .end
 
-
-
-
-.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
-.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
-
-**** end user architecture code
-**.ends
-.end
+"}
+C {devices/code_shown.sym} 80 -230 0 0 {name=MODELS only_toplevel=true
+format="tcleval( @value )"
+value="
+.include $::180MCU_MODELS/design.ngspice
+.lib $::180MCU_MODELS/sm141064.ngspice typical
+"}

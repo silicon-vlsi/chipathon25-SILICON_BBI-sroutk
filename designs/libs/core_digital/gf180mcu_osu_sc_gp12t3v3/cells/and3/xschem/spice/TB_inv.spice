@@ -1,0 +1,30 @@
+** sch_path: /foss/designs/work/xschem/TB_inv.sch
+**.subckt TB_inv
+**** begin user architecture code
+
+.include /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+
+
+
+
+.INCLUDE /headless/.xschem/simulations/gf180mcu_osu_sc_gp9t3v3__inv_1.spice
+
+**Netlist
+Xinv A Y gf180mcu_osu_sc_gp9t3v3__inv_1
+Cload	Y	GND	50f
+
+**Source
+Vdc	VDD	GND	1.8
+Vin	A	GND	0 PULSE(0 1.8 1n 1p 1p 5n 10n)
+
+
+.control
+save all
+op
+.endc
+
+
+**** end user architecture code
+**.ends
+.end
