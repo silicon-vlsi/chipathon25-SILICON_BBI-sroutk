@@ -2,14 +2,6 @@
 
 Designer: Prasnjit Biswal (AND3_1X)
 
-## Description
-
-![3-input AND Gate Block Diagram and anlaysis]("https://github.com/Prasnjitv15/chipathon25-SILICON_BBI-pbiswal/blob/4f0af98a6cd3fb9306bc605c713a2cc3881a2652/gf180mcu_osu_sc_gp12t3v3_and3_1.png")
-
-The **function** of this block is to pass a digital signal from a **low-voltage** (3.3V) domain to a **high-voltage** (5V) domain. This cell will typically sit on the periphery of the IP do translate signals from one voltage domain to another. 
-
-As shown in the _figure_, we will analyze for the condition input (`A`) switching from `0 -> 3.3V`.
-## Design and Simulation
 
 **DESIGN FILES**
 
@@ -19,32 +11,32 @@ As shown in the _figure_, we will analyze for the condition input (`A`) switchin
 
 **SCHEMATIC**
 
-![Schematic]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\gf180mcu_osu_sc_gp12t3v3_and3_1.png.png")
+<img width="874" height="672" alt="Screenshot 2025-08-08 194746" src="https://github.com/user-attachments/assets/94e043e2-6479-4ac9-8308-ed1ff2a76ba1" />
 
 
 **SIMULATION RESULTS**
 
-**DELAY AND POWER CHARACTERIZATION 3-input AND Gate**
+**DELAY AND POWER CHARACTERIZATION AND3_2X (3.3V)**
 
 | Metric | Cl=5f | Cl=10f | Cl=50f |
 |--------|-------|--------|--------|
-| **trise** (10-90%)| 0.15n | 0.24n | 1n |
-| **tfall** (90-10%) | 0.12n | 0.17n | 0.58n |
-| **tdel-rise** (50-50%) | 0.21n | 0.25n | 0.62n |
-| **tdel-fall** (50-50%) | 0.32n | 0.36n | 0.61n |
-| **Ivddh**(avg) | 10uA | 13.2uA | 33uA |
+| **trise** (10-90%)| 0.11n | 0.16n | 0.55n |
+| **tfall** (90-10%) | 0.07n | 0.10n | 0.43n |
+| **tdel-rise a** (50-50%) | 4.17n | 4.20n | 4.38n |
+| **tdel-fall a** (50-50%) | 4.17n | 4.20n | 4.38n |
+| **tdel-rise b** (50-50%) | 2.17n | 2.20n | 2.38n |
+| **tdel-fall b** (50-50%) | -11.90n | -11.88n | -11.72n |
+| **tdel-rise c** (50-50%) | 0.17n | 0.20n | 0.38n |
+| **tdel-fall c** (50-50%) | -43.90n | -43.88n | -43.72n |
+| **Iavg(Y)** | 1.84A | 1.81A | 1.74A |
 
-**NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
+**NOTE** 
+1) Input slew-rate is 1 ps   
+2) Average current is claculated over a 10 ns period
 
-**DELAY AND POWER CHARACTERIZATION INV_1X (5V)**
+**PLOT**
+
+<img width="894" height="758" alt="Screenshot 2025-08-08 194547" src="https://github.com/user-attachments/assets/3f9085f5-b134-435d-a69f-3c07f18e55cf" />
 
 
-| Metric | Cl=5f | Cl=10f | Cl=50f |
-|--------|-------|--------|--------|
-| **trise** (10-90%)| 0.12n | 0.22n | 1n |
-| **tfall** (90-10%) | 0.07n | 0.12n | 0.56n |
-| **tdel-rise** (50-50%) | 5n | 5n | 5.6n |
-| **tdel-fall** (50-50%) | -5n | -5n | -4.7n |
-
-![Plots]("C:\Users\PRASANJIT BISWAL\OneDrive\Pictures\Screenshots\plot-and3_12t.png")
 
