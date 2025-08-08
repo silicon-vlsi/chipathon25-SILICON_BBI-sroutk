@@ -13,20 +13,22 @@
 .lib /home/usrvnc/share/pdk/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
 
 ** Level shifter design
-.INCLUDE gf180mcu_osu_sc_gp9t3v3_lshifup.spice
+*.INCLUDE gf180mcu_osu_sc_gp9t3v3_lshifup.spice
+.INCLUDE /home/usrvnc/.xschem/simulations/gf180mcu_osu_sc_gp9t3v3_lshifup.spice
 
 
 ** Instantiate LS
-XLSup A Y gf180mcu_osu_sc_gp9t3v3_lshifup 
+XLSup A Y VDD5 VDD3v3 VSS gf180mcu_osu_sc_gp9t3v3_lshifup 
 
 **Load
-Cl	Y	GND	PAR_CLOAD	
+Cl	Y	VSS	PAR_CLOAD	
 
 **Stimulus
-Vdd5v	VDDH	GND	PAR_VDDH
-Vdd3v	VDD	GND	PAR_VDD
-**Vin	A	GND	0 PULSE(0 3.3 1n 1p 1p 5n 10n)
-Vin	A	GND	0 PULSE(0 PAR_VDD '0.25*PAR_PERIOD' PAR_SLEW PAR_SLEW 'PAR_PERIOD*0.5' PAR_PERIOD)
+Vdd5v	VDD5	VSS	PAR_VDDH
+Vdd3v	VDD3v3	VSS	PAR_VDD
+**Vin	A	VSS	0 PULSE(0 3.3 1n 1p 1p 5n 10n)
+Vin	A	VSS	0 PULSE(0 PAR_VDD '0.25*PAR_PERIOD' PAR_SLEW PAR_SLEW 'PAR_PERIOD*0.5' PAR_PERIOD)
+VGND	VSS	0	0
 
 **Keeping the measures outside of .control related to issue of
 ** passing the parameter
