@@ -8,9 +8,6 @@ Designer: Aditya Pratyush Mohapatra (OR3_1X)
 - [Xschem Schematic](./gf180mcu_osu_sc_gp9t3v3__or3_1.sch)
 - [Netlist](./gf180mcu_osu_sc_gp9t3v3__or3_1.spice)
 - [Testbench](../../../../tb_digital/tb_or3_9t/TB_gf180mcu_osu_sc_gp9t_or3_1.spice)
-plot-functional-or3_1.png
-plot-transient-or3_1.png
-xschem-or3_1.png
 
 **DELAY AND POWER CHARACTERIZATION **
 
