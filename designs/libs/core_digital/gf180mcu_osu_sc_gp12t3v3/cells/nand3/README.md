@@ -9,7 +9,7 @@ Designer: Vishal Roy
 - [Testbench](../../../../tb_digital/tb_nand3_12t/TB_gf180mcu_osu_sc_gp12t3v3__nand3_1.spice)
 
 
-**DELAY AND POWER CHARACTERIZATION **
+**DELAY AND POWER CHARACTERIZATION**
 
 | Metric | Cl=5f | Cl=10f | Cl=50f |
 |--------|-------|--------|--------|
