@@ -1,34 +1,54 @@
 # 3-input NOR Gate
 
-Designer: Aditi Patel (NOR3_1X)
-
-## Design and Simulation
-
-**SCHEMATIC**
-
-<img width="620" height="792" alt="Screenshot 2025-08-09 013607" src="https://github.com/user-attachments/assets/bfae4619-ca40-416b-9076-bf69acea4115" />
+Designer: Aditi Patel (NOR3_1X) 
 
 
 
-**SIMULATION RESULTS**
+SCHEMATIC:
 
-**DELAY AND POWER CHARACTERIZATION NOR3_12T (3.3V)**
+WAVEFORM:
 
-| Metric | Cl=5f | Cl=10f | Cl=50f |
-|--------|-------|--------|--------|
-| **trise** (10-90%)| 0.26n | 0.42n | 1.60n |
-| **tfall** (90-10%) | 0.10n | 0.14n | 0.49n |
-| **tdel-rise a** (50-50%) | 70.16n | 70.22n | 70.74n |
-| **tdel-fall a** (50-50%) | 70.16n | 70.22n | 70.74n |
-| **tdel-rise b** (50-50%) | 68.16n | 68.22n | 68.74n |
-| **tdel-fall b** (50-50%) | -21.94n | -21.92n | -21.75n |
-| **tdel-rise c** (50-50%) | 66.16n | 66.22n | 66.74n |
-| **tdel-fall c** (50-50%) | -53.94 | -53.92n | -53.75n |
-| **Iavg(Y)** | 0.02uA | 0.03uA | 0.09uA |
-
-**NOTE** 
-1) Input slew-rate is 1 ps   
-2) Average current is claculated over a 10 ns period
+SIMULATION RESULTS:-
 
 
-<img width="890" height="674" alt="Screenshot 2025-08-09 005621" src="https://github.com/user-attachments/assets/8f95519a-bf33-411c-a633-df385d1f233d" />
+**DELAY AND POWER CHARACTERIZATION **
+
+| Metric | unit | Cl=5f | Cl=10f | Cl=50f |
+|--------|------|-------|--------|--------|
+| **trise** (10-90%)| ns | | | |
+| **tfall** (90-10%) | ns |  |  |  |
+| **tdel-rise** (50-50%) | ns |  |  |  |
+| **tdel-fall** (50-50%) | ns |  | |  |
+| **Ivddh**(avg) | uA |  |  |  |
+| **Ileak** | nA |  |  |  |
+
+**NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
+
+
+Cl=5f
+
+tr1090              =  3.063007e-10 targ=  1.437359e-09 trig=  1.131058e-09
+tf9010              =  1.238233e-10 targ=  6.295513e-09 trig=  6.171689e-09
+tdrise              =  1.750635e-10 targ=  1.225064e-09 trig=  1.050000e-09
+tdfall              =  7.836156e-11 targ=  6.228362e-09 trig=  6.150000e-09
+iavg                =  -6.194882e-06 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -1.062409e-11 from=  5.000000e-09 to=  5.500500e-09
+
+Cl=10f
+tr1090              =  4.394843e-10 targ=  1.586871e-09 trig=  1.147387e-09
+tf9010              =  1.619006e-10 targ=  6.340965e-09 trig=  6.179064e-09
+tdrise              =  2.407083e-10 targ=  1.290708e-09 trig=  1.050000e-09
+tdfall              =  1.018238e-10 targ=  6.251824e-09 trig=  6.150000e-09
+iavg                =  -7.882962e-06 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -1.063501e-11 from=  5.000000e-09 to=  5.500500e-09
+
+Cl=50f
+tr1090              =  1.516023e-09 targ=  2.775167e-09 trig=  1.259144e-09
+tf9010              =  4.705994e-10 targ=  6.687854e-09 trig=  6.217254e-09
+tdrise              =  7.531327e-10 targ=  1.803133e-09 trig=  1.050000e-09
+tdfall              =  2.710029e-10 targ=  6.421003e-09 trig=  6.150000e-09
+iavg                =  -2.125999e-05 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -2.948398e-07 from=  5.000000e-09 to=  5.500500e-09
+
+
+
