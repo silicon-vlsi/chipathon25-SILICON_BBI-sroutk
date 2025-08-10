@@ -21,9 +21,9 @@ Both of the groups consists of undergraduate students (2nd and 3rd year) from th
 
 | Name | Cell | Strength | Track | DocLink |
 |----------|----------|----------|----------|----------|
-| Saroj Rout    | `lshifup/lshifdown`  | 1X | 9T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/README.md) |
-| Vishal Roy    | `3-inp NAND`     | 1X | 12T | |
-| Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T | |
+| Saroj Rout    | `lshifup/lshifdown`  | 1X | 9T |  |
+| Vishal Roy    | `3-inp NAND`     | 1X | 12T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/README.md) |
+| Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |  [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/nor3/README.md) |
 | Aditi Patel    | `3-inp NOR`     | 1X  |  12T | |
 | Subhranshu Das    | `3-inp AND`     | 2X  | 9T | | 
 | Prasnjit Biswal    | `3-inp AND`  | 1X | 12T | |
