@@ -1,20 +1,23 @@
 ** sch_path: /foss/designs/work/xschem/TB_nand1_3.sch
 **.subckt TB_nand1_3
-**** begin user architecture code
 
+.PARAM PAR_CLOAD=5f
+.PARAM PAR_SLEW=100p
+.PARAM PAR_PERIOD=10n
+.PARAM PAR_TSTOP=PAR_PERIOD
 
-
-.INCLUDE gf180mcu_osu_sc_gp12t3v3__nand1_3_1.spice
+.INCLUDE ../../core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nand3/gf180mcu_osu_sc_gp12t3v3__nand3_1.spice
 
 **netlist
-Xnand A B Y C gf180mcu_osu_sc_gp12t3v3__nand1_3_1
-Cload   Y      GND   50f
+Xnand 	A B Y C VDD VSS gf180mcu_osu_sc_gp12t3v3__nand3_1
+Cload   Y     	VSS   50f
 
 **Sources
-Vdc   VDD   GND   3.3
-VinA   A    GND   PULSE(0 3.3 1n 1p 1p 5n 10n)
-VinB   B    GND   PULSE(0 3.3 2n 1p 1p 5n 10n)
-VinC   C    GND   PULSE(0 3.3 3n 1p 1p 5n 10n)
+Vdc   	VDD   	VSS   	3.3
+VinA   	A    	VSS   	0 	PULSE(0 3.3 1n 1p 1p 5n 10n)
+VinB   	B    	VSS   	0	PULSE(0 3.3 2n 1p 1p 5n 10n)
+VinC   	C    	VSS   	0	PULSE(0 3.3 3n 1p 1p 5n 10n)
+Vgnd	
 
 ** Rise/Fall 10-90%
 .MEASURE TRAN tr1090 TRIG v(Y) VAL='0.1*1.8' RISE=1 TARG v(Y) VAL='0.9*1.8' RISE=1
