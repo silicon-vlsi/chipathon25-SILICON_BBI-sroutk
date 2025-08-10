@@ -16,23 +16,44 @@ Designer: Prasnjit Biswal (AND3_1X)
 
 **SIMULATION RESULTS**
 
-**DELAY AND POWER CHARACTERIZATION AND3_2X (3.3V)**
+**DELAY AND POWER CHARACTERIZATION AND3_1X (3.3V)**
 
-| Metric | Cl=5f | Cl=10f | Cl=50f |
-|--------|-------|--------|--------|
-| **trise** (10-90%)| 0.11n | 0.16n | 0.55n |
-| **tfall** (90-10%) | 0.07n | 0.10n | 0.43n |
-| **tdel-rise a** (50-50%) | 4.17n | 4.20n | 4.38n |
-| **tdel-fall a** (50-50%) | 4.17n | 4.20n | 4.38n |
-| **tdel-rise b** (50-50%) | 2.17n | 2.20n | 2.38n |
-| **tdel-fall b** (50-50%) | -11.90n | -11.88n | -11.72n |
-| **tdel-rise c** (50-50%) | 0.17n | 0.20n | 0.38n |
-| **tdel-fall c** (50-50%) | -43.90n | -43.88n | -43.72n |
-| **Iavg(Y)** | 1.84A | 1.81A | 1.74A |
+| Metric | unit | Cl=5f | Cl=10f | Cl=50f |
+|--------|------|-------|--------|--------|
+| **trise** (10-90%)| ns | | | |
+| **tfall** (90-10%) | ns |  |  |  |
+| **tdel-rise** (50-50%) | ns |  |  |  |
+| **tdel-fall** (50-50%) | ns |  | |  |
+| **Ivddh**(avg) | uA |  |  |  |
+| **Ileak** | nA |  |  |  |
 
-**NOTE** 
-1) Input slew-rate is 1 ps   
-2) Average current is claculated over a 10 ns period
+**NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
+
+Cl=50f 
+tr1090              =  5.193495e-10 targ=  1.791518e-09 trig=  1.272168e-09
+tf9010              =  4.095400e-10 targ=  6.695367e-09 trig=  6.285827e-09
+tdrise              =  4.250378e-10 targ=  1.475038e-09 trig=  1.050000e-09
+tdfall              =  3.057091e-10 targ=  6.455709e-09 trig=  6.150000e-09
+iavg                =  -1.974876e-05 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -1.381279e-11 from=  5.000000e-09 to=  5.500500e-09
+
+Cl=10f
+tr1090              =  1.546085e-10 targ=  1.371485e-09 trig=  1.216876e-09
+tf9010              =  1.073580e-10 targ=  6.352799e-09 trig=  6.245441e-09
+tdrise              =  2.360493e-10 targ=  1.286049e-09 trig=  1.050000e-09
+tdfall              =  1.438919e-10 targ=  6.293892e-09 trig=  6.150000e-09
+iavg                =  -6.535737e-06 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -1.378399e-11 from=  5.000000e-09 to=  5.500500e-09
+
+Cl=5f
+tr1090              =  1.084535e-10 targ=  1.314534e-09 trig=  1.206081e-09
+tf9010              =  7.065789e-11 targ=  6.308447e-09 trig=  6.237789e-09
+tdrise              =  2.072208e-10 targ=  1.257221e-09 trig=  1.050000e-09
+tdfall              =  1.211317e-10 targ=  6.271132e-09 trig=  6.150000e-09
+iavg                =  -4.896493e-06 from=  1.000000e-09 to=  1.100010e-08
+ileak               =  -1.378361e-11 from=  5.000000e-09 to=  5.500500e-09
+
+
 
 **PLOT**
 
