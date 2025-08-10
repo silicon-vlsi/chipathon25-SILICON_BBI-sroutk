@@ -14,7 +14,21 @@ Both of the groups consists of undergraduate students (2nd and 3rd year) from th
 - Create schematics, layout, and simulate for design verification.
 - Characterize the cells using open-source tools like _CharLib_ from OSU amd _Libretto_. another good open-source characterization tool. 
 
-**TEAMS**
+**TEAM MEMBERS**
+
+- **LIST OF STANDARD CELLS**
+
+
+| Name | Cell | Strength | Track | DocLink |
+|----------|----------|----------|----------|----------|
+| Saroj Rout    | `lshifup/lshifdown`  | 1X | 9T | [README](../../../../core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/README.md) |
+| Vishal Roy    | `3-inp NAND`     | 1X | 12T | |
+| Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T | |
+| Aditi Patel    | `3-inp NOR`     | 1X  |  12T | |
+| Subhranshu Das    | `3-inp AND`     | 2X  | 9T | | 
+| Prasnjit Biswal    | `3-inp AND`  | 1X | 12T | |
+| Aditya Mohapatra    | `3-inp OR`    | 1X  | 9T | |
+
 
 - **SILICON_BBI1**
   - [Saroj Rout <@sroutk>](https://www.eecs.tufts.edu/~saroj), Adjunct Professor, ECE (Lead and Mentor for both groups)
@@ -22,18 +36,9 @@ Both of the groups consists of undergraduate students (2nd and 3rd year) from th
   - Ananya Satapathy, 3rd Yr UG, ECE
   - Aditi Patel, 2nd Yr UG, ECE
   - Subhranshu Das, 3rd Yr, ECE
-
-- **SILICON_BBI2** 
-  - Prasnjit Biswal, 3rd Yr UG, EEE (Tentative Lead)
-  - Bhabisyajit Bal, 2nd Yr UG, EEE
+  - Prasnjit Biswal, 3rd Yr UG, EEE
   - Aditya Pratyush Mohapatra, 3rd Yr UG, ECE
-  - Aditya Sahoo, 2nd Yr UG, ECE
-  - Sonu Singh, 3rd Yr UG, ECE
 
-**POSSIBLE 2-MEMBER GROUPS**
-- Group-1: Anayna and Aditi
-- Group-2: Subhranshu and Prasnjit
-- Group-3: Aditya M. and Aditya S.
   
 ## Project
 
@@ -57,23 +62,13 @@ Suggestion from Tim Edward during [June 28 Meeting](https://docs.google.com/pres
 
 - **SILICON_BBI1**
 
-| Name | Cell | Strength | Track |
-|----------|----------|----------|----------|
-| Saroj Rout    | `lshifup/lshifdown`  | 1X | 9T |
-| Vishal Roy    | `3-inp NAND`     | 1X | 12T |
-| Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |
-| Aditi Patel    | `3-inp NOR`     | 1X  |  12T |
-| Subhranshu Das    | `3-inp AND`     | 2X  | 9T |
-
 
 - **SILICON_BBI2**
 
 
 | Name | Cell | Strength | Track |
 |----------|----------|----------|----------|
-| Prasnjit Biswal    | `3-inp AND`  | 1X | 12T |
-| Bhabisyajit Bal    | `3-inp NAND`     | 2X | 9T |
-| Aditya Mohapatra    | `3-inp OR`    | 1X  | 9T |
+
 | Aditya Sahoo    | `3-inp OR`     | 1X  |  12T |
 | Sonu Singh    | `2-inp NOR`     | 2X  | 9T |
 
