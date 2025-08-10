@@ -14,21 +14,22 @@ Both of the groups consists of undergraduate students (2nd and 3rd year) from th
 - Create schematics, layout, and simulate for design verification.
 - Characterize the cells using open-source tools like _CharLib_ from OSU amd _Libretto_. another good open-source characterization tool. 
 
-**TEAM MEMBERS**
 
-- **LIST OF STANDARD CELLS**
+**LIST OF STANDARD CELLS**
 
 
 | Name | Cell | Strength | Track | DocLink |
 |----------|----------|----------|----------|----------|
 | Saroj Rout    | `lshifup`  | 1X | 9T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/lshifup/README.md) |
-| Vishal Roy    | `3-inp NAND`     | 1X | 12T |  |
+| Vishal Roy    | `3-inp NAND`     | 1X | 12T |  [README](designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nand3/README.md)|
 | Ananya Satapathy    | `3-inp NOR`    | 1X  | 9T |  [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/nor3/README.md) |
-| Aditi Patel    | `3-inp NOR`     | 1X  |  12T | |
+| Aditi Patel    | `3-inp NOR`     | 1X  |  12T | -Same as NOR3 9T- |
 | Subhranshu Das    | `3-inp AND`     | 2X  | 9T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/README.md)| 
 | Prasnjit Biswal    | `3-inp AND`  | 1X | 12T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/and3/README.md)|
 | Aditya Mohapatra    | `3-inp OR`    | 1X  | 9T | [README](designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/or3/README.md) |
 
+
+**TEAM MEMBERS**
 
 - **SILICON_BBI1**
   - [Saroj Rout <@sroutk>](https://www.eecs.tufts.edu/~saroj), Adjunct Professor, ECE (Lead and Mentor for both groups)

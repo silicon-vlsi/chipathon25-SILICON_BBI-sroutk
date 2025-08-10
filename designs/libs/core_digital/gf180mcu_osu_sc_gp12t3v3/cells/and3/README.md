@@ -9,11 +9,6 @@ Designer: Prasnjit Biswal (AND3_1X)
 - [Netlist](./gf180mcu_osu_sc_gp12t3v3__and3_1.spice)
 - [Testbench](../../../../tb_digital/tb_and3_12t/tb_gf180mcu_osu_sc_gp12t3v3_and3_1.spice)
 
-**SCHEMATIC**
-
-<img width="874" height="672" alt="Screenshot 2025-08-08 194746" src="https://github.com/user-attachments/assets/94e043e2-6479-4ac9-8308-ed1ff2a76ba1" />
-
-
 **SIMULATION RESULTS**
 
 **DELAY AND POWER CHARACTERIZATION AND3_1X (3.3V)**
