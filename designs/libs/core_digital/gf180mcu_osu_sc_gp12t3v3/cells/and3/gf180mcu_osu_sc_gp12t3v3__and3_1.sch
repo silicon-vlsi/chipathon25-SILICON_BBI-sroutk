@@ -110,7 +110,7 @@ C {symbols/pfet_03v3.sym} 660 -430 0 0 {name=M6
 L=0.3u
 W=1.7u
 nf=1
-m=2
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -166,7 +166,7 @@ C {symbols/nfet_03v3.sym} 660 -340 0 0 {name=M10
 L=0.3u
 W=0.85u
 nf=1
-m=2
+m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
 pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
 as="'int((nf+2)/2) * W/nf * 0.18u'"
@@ -176,4 +176,4 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {title.sym} 40 0 0 0 {name=l1 author="Subranshu Das Chipathon'25 D14:SILICON_BBI1"}
+C {title.sym} 40 0 0 0 {name=l1 author="Prasnjit Biswal Chipathon'25 D14:SILICON_BBI1"}
