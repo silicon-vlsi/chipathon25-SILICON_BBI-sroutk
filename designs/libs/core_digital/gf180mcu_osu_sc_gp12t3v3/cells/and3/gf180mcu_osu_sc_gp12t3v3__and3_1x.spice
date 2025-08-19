@@ -1,0 +1,13 @@
+* SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__and3_1x.ext - technology: gf180mcuD
+
+
+
+X0 VDD A a_90_210# VDD pfet_03v3 ad=18.7n pd=0.45m as=34n ps=0.88m w=340 l=60
+X1 Y a_90_210# VDD VDD pfet_03v3 ad=34n pd=0.88m as=18.7n ps=0.45m w=340 l=60
+X2 a_250_210# A a_90_210# VSS nfet_03v3 ad=9.35n pd=0.28m as=17n ps=0.54m w=170 l=60
+X3 a_90_210# B VDD VDD pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
+X4 a_420_210# B a_250_210# VSS nfet_03v3 ad=9.35n pd=0.28m as=9.35n ps=0.28m w=170 l=60
+X5 VSS C a_420_210# VSS nfet_03v3 ad=9.35n pd=0.28m as=9.35n ps=0.28m w=170 l=60
+X6 Y a_90_210# VSS VSS nfet_03v3 ad=17n pd=0.54m as=9.35n ps=0.28m w=170 l=60
+X7 VDD C a_90_210# VDD pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=170 l=30
+
