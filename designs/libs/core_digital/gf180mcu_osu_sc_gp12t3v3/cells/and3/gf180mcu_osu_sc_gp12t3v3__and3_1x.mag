@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755407614
+timestamp 1755631857
 << nwell >>
 rect 0 102 95 166
 << nmos >>
@@ -18,8 +18,14 @@ rect 9 36 19 38
 rect 9 23 11 36
 rect 16 23 19 36
 rect 9 21 19 23
-rect 25 21 36 38
-rect 42 21 53 38
+rect 25 36 36 38
+rect 25 23 28 36
+rect 33 23 36 36
+rect 25 21 36 23
+rect 42 36 53 38
+rect 42 23 45 36
+rect 50 23 53 36
+rect 42 21 53 23
 rect 59 36 70 38
 rect 59 23 62 36
 rect 67 23 70 36
@@ -51,6 +57,8 @@ rect 84 113 86 143
 rect 76 111 86 113
 << ndiffc >>
 rect 11 23 16 36
+rect 28 23 33 36
+rect 45 23 50 36
 rect 62 23 67 36
 rect 79 23 84 36
 << pdiffc >>
@@ -150,14 +158,18 @@ rect 11 86 67 92
 rect 72 86 74 92
 rect 12 72 14 78
 rect 20 72 22 78
-rect 28 45 33 86
+rect 28 49 33 86
 rect 38 59 40 65
 rect 46 59 48 65
+rect 11 44 33 49
 rect 54 46 56 52
 rect 62 46 64 52
-rect 11 40 33 45
-rect 11 36 16 40
+rect 11 36 16 44
 rect 11 21 16 23
+rect 28 36 33 38
+rect 28 21 33 23
+rect 45 36 50 38
+rect 45 21 50 23
 rect 62 36 67 38
 rect 62 14 67 23
 rect 79 36 84 98
@@ -191,15 +203,15 @@ rect 54 46 56 52
 rect 62 46 64 52
 rect 54 45 64 46
 << labels >>
-rlabel metal2 17 75 17 75 1 A
-port 1 n
-rlabel metal2 43 62 43 62 1 B
-port 2 n
-rlabel psubdiffcont 14 10 14 10 1 VSS
-port 5 n
-rlabel via1 83 102 83 102 1 Y
-port 3 n
-flabel metal1 28 154 33 159 0 FreeSans 4 0 0 0 VDD
-flabel metal2 56 46 62 52 0 FreeSans 4 0 0 0 C
-port 7 nsew
+rlabel via1 14 10 14 10 0 VSS
+rlabel via1 83 102 83 102 0 Y
+port 10 n
+rlabel via1 56 46 62 52 0 C
+rlabel via1 43 62 43 62 0 B
+rlabel via1 17 75 17 75 0 A
+rlabel via1 11 113 16 143 0 net1
+rlabel ndiffc 28 23 33 36 0 net2
+rlabel ndiffc 45 23 50 36 0 net3
+rlabel metal1 28 154 33 159 0 VDD
+rlabel via1 80 99 86 105 0 Y
 << end >>
