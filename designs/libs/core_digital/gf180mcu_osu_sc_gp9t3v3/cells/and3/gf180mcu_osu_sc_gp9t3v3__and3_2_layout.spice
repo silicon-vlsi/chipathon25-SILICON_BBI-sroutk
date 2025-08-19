@@ -1,15 +1,13 @@
 * SPICE3 file created from gf180mcu_osu_sc_gp9t3v3__and3_2_layout.ext - technology: gf180mcuD
 
-.option scale=5n
-
-X0 VDD net1 Y VDD pfet_03v3 ad=37.4n pd=0.9m as=18.7n ps=0.45m w=340 l=60
-X1 net3 B net2 VSS nfet_03v3 ad=9.35n pd=0.28m as=9.35n ps=0.28m w=170 l=60
-X2 net1 B VDD VDD pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
-X3 VSS C net3 VSS nfet_03v3 ad=9.35n pd=0.28m as=9.35n ps=0.28m w=170 l=60
-X4 VDD C net1 VDD pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
-X5 Y net1 VSS VSS nfet_03v3 ad=9.35n pd=0.28m as=9.35n ps=0.28m w=170 l=60
-X6 net2 A net1 VSS nfet_03v3 ad=9.35n pd=0.28m as=18.7n ps=0.56m w=170 l=60
-X7 Y net1 VDD VDD pfet_03v3 ad=18.7n pd=0.45m as=18.7n ps=0.45m w=340 l=60
-X8 VSS net1 Y VSS nfet_03v3 ad=18.7n pd=0.56m as=9.35n ps=0.28m w=170 l=60
-X9 VDD A net1 VDD pfet_03v3 ad=18.7n pd=0.45m as=37.4n ps=0.9m w=340 l=60
+X0 VDD net1 Y VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 net3 B net2 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X2 net1 B VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X3 VSS C net3 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 VDD C net1 VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 Y net1 VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 net2 A net1 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X7 Y net1 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 VSS net1 Y VSS nfet_03v3 ad=0.4675p pd=2.8u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X9 VDD A net1 VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.935p ps=4.5u w=1.7u l=0.3u
 **C0 VDD VSS 2.49623f **FLOATING
