@@ -1,36 +1,29 @@
-* NGSPICE file created from gf180mcu_osu_sc_gp12t3v3__and3_1.ext - technology: gf180mcuD
+* SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__and3_1_ext.ext - technology: gf180mcuD
 
-X0 Y a_9_21# VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X1 VDD C a_9_21# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.595p ps=2.96667u w=1.7u l=0.3u
-X2 a_9_21# B VDD VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X3 VDD A a_9_21# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.595p ps=2.96667u w=1.7u l=0.3u
-X4 VSS C a_42_21# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X5 a_25_21# A a_9_21# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
-X6 Y a_9_21# VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X7 a_42_21# B a_25_21# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
-C0 a_9_21# a_42_21# 0.00188f
-C1 a_9_21# B 0.16365f
-C2 A VDD 0.10084f
-C3 a_9_21# a_25_21# 0.00723f
-C4 Y VDD 0.19148f
-C5 a_9_21# A 0.236f
-C6 C B 0.11486f
-C7 a_9_21# Y 0.16617f
-C8 a_42_21# B 0.00239f
-C9 a_9_21# VDD 0.65493f
-C10 C A 0.00152f
-C11 C Y 0.03355f
-C12 A B 0.09405f
-C13 C VDD 0.09443f
-C14 Y B 0.01334f
-C15 C a_9_21# 0.19919f
-C16 B VDD 0.0938f
-C17 Y A 0
-C18 Y VSS 0.46251f
-C19 C VSS 0.52541f
-C20 B VSS 0.51514f
-C21 A VSS 0.61257f
-C22 a_42_21# VSS 0.00795f
-C23 a_25_21# VSS 0.00738f
-C24 a_9_21# VSS 1.03872f
-C25 VDD VSS 2.09312f
+X0 VDD A a_90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X1 Y a_90_210# VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X2 a_250_210# A a_90_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X3 a_90_210# B VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X4 a_420_210# B a_250_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X5 VSS C a_420_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 Y a_90_210# VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 VDD C a_90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+C0 C Y 0.03355f
+C1 VDD B 0.0938f
+C2 a_90_210# VDD 0.65493f
+C3 A VDD 0.10084f
+C4 VDD Y 0.19148f
+C5 a_90_210# B 0.16365f
+C6 A B 0.09405f
+C7 a_90_210# A 0.236f
+C8 Y B 0.01334f
+C9 a_90_210# Y 0.16617f
+C10 C VDD 0.09443f
+C11 C B 0.11486f
+C12 a_90_210# C 0.19919f
+C13 Y VSS 0.46251f **FLOATING
+C14 a_90_210# VSS 1.03872f **FLOATING
+C15 C VSS 0.52541f **FLOATING
+C16 B VSS 0.51514f **FLOATING
+C17 A VSS 0.61257f **FLOATING
+C18 VDD VSS 2.09312f **FLOATING
