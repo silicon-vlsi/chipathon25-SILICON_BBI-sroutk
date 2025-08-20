@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755643525
+timestamp 1755702905
 << nwell >>
 rect -3 102 75 166
 << nmos >>
@@ -84,23 +84,23 @@ rect 16 38 22 70
 rect 27 67 33 111
 rect 38 108 44 111
 rect 38 102 56 108
-rect 50 80 56 102
-rect 50 78 66 80
-rect 50 72 58 78
-rect 64 72 66 78
-rect 50 70 66 72
+rect 50 90 56 102
+rect 50 88 66 90
+rect 50 82 58 88
+rect 64 82 66 88
+rect 50 80 66 82
 rect 27 65 39 67
 rect 27 59 30 65
 rect 36 59 39 65
 rect 27 57 39 59
 rect 33 38 39 57
-rect 50 38 56 70
+rect 50 38 56 80
 rect 16 16 22 21
 rect 33 16 39 21
 rect 50 16 56 21
 << polycontact >>
 rect 8 72 14 78
-rect 58 72 64 78
+rect 58 82 64 88
 rect 30 59 36 65
 << metal1 >>
 rect -3 159 75 166
@@ -118,8 +118,8 @@ rect 14 72 16 78
 rect 28 59 30 65
 rect 36 59 38 65
 rect 44 52 49 103
-rect 56 72 58 78
-rect 64 72 66 78
+rect 56 82 58 88
+rect 64 82 66 88
 rect 58 52 65 54
 rect 44 51 58 52
 rect 25 46 58 51
@@ -141,17 +141,17 @@ rect -3 0 75 7
 << via1 >>
 rect 8 72 14 78
 rect 30 59 36 65
-rect 58 72 64 78
+rect 58 82 64 88
 rect 58 46 64 52
 << metal2 >>
+rect 56 88 66 89
+rect 56 82 58 88
+rect 64 82 66 88
+rect 56 81 66 82
 rect 6 78 16 79
 rect 6 72 8 78
 rect 14 72 16 78
 rect 6 71 16 72
-rect 56 78 66 79
-rect 56 72 58 78
-rect 64 72 66 78
-rect 56 71 66 72
 rect 28 65 38 66
 rect 28 59 30 65
 rect 36 59 38 65
@@ -169,11 +169,13 @@ rlabel nsubdiffcont 11 154 16 159 1 VDD
 rlabel nsubdiffcont 35 154 40 159 1 VDD
 rlabel psubdiffcont 11 7 16 12 1 VSS
 rlabel psubdiffcont 35 7 40 12 1 VSS
-rlabel metal2 8 72 14 78 1 A
-rlabel metal2 30 59 36 65 1 B
-rlabel metal2 58 72 64 78 1 C
-rlabel via1 58 46 64 52 1 Y
 rlabel pdiffc 8 113 13 143 1 net1
 rlabel ndiffc 8 23 13 36 1 net2
 rlabel ndiffc 25 23 30 36 1 net3
+flabel metal1 -1 161 7 164 0 FreeSans 32 0 0 0 VDD
+flabel metal1 -2 2 6 5 0 FreeSans 32 0 0 0 VSS
+flabel metal2 8 72 14 78 0 FreeSans 48 0 0 0 A
+flabel metal2 30 59 36 65 0 FreeSans 48 0 0 0 B
+flabel metal2 58 82 64 88 0 FreeSans 48 0 0 0 C
+flabel via1 58 46 64 52 0 FreeSans 48 0 0 0 Y
 << end >>
