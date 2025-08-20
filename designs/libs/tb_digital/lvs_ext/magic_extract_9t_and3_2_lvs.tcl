@@ -10,8 +10,8 @@ extract all
 # Optional: Set extraction parameters
 #ext2spice hierarchy on         ;# Keeps subcircuit hierarchy (or 'off' for flat netlist)
 ext2spice scale off            ;# Use real unit scaling
-ext2spice cthresh 0.01f        ;# Extract all capacitances
+ext2spice cthresh 100f        ;# Extract all capacitances
 
 # Output the SPICE file, in ngspice format, with a chosen output filename
-ext2spice -d -o ext/gf180mcu_osu_sc_gp9t3v3__and3_2_ext.spice -f ngspice
+ext2spice -d -o lvs/gf180mcu_osu_sc_gp9t3v3__and3_2_ext.spice -f ngspice
 
