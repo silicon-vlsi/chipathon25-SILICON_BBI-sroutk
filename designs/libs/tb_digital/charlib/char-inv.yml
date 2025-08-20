@@ -1,0 +1,33 @@
+settings:
+    lib_name:             gf180mcu_osu_sc_gp9t3v3_TT_25C.
+    omit_on_failure:      True
+    units:
+        time:               ns
+        voltage:            V
+        current:            mA
+        pulling_resistance: kOhm
+        leakage_power:      nW
+        capacitive_load:    pF
+        energy:             fJ
+    named_nodes:
+        vdd:
+            name:       VDD
+            voltage:    3.3
+        vss:
+            name:       VSS
+            voltage:    0
+    cell_defaults:
+        models:
+            # This syntax tells CharLib to use the '.lib file section' syntax for th>
+            - /foss/pdks/gf180mcuD/libs.tech/ngspice/design.ngspice
+            - /foss/pdks/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+
+        slews: [0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10]
+        loads: [0.00103698, 0.00444906, 0.0190882, 0.0818956, 0.351363, 1.50748]
+cells:
+    gf180mcu_osu_sc_gp9t3v3__and3_2:
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/gf180mcu_osu_sc_gp9t3v3__and3_2.spice
+        inputs:     [A, B, C]
+        outputs:    ['Y']
+        functions: [Y=A&B&C]
+
