@@ -1,0 +1,53 @@
+timestamp 1755623585
+version 8.3
+tech gf180mcuD
+style ngspice()
+scale 1000 1 5
+resistclasses 1000000 3250000 6300 7000 6300 7000 7300 1000000 60000 185000 60000 185000 6300 7000 6300 7000 6800 7300 350000 310000 1000000 90 90 90 90 60
+parameters nfet_03v3_dss l=l w=w a1=as p1=ps a2=ad p2=pd l1=s_sab l2=d_sab
+parameters nfet_03v3 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters pfet_03v3_dss l=l w=w a1=as p1=ps a2=ad p2=pd l1=s_sab l2=d_sab
+parameters pfet_03v3 l=l w=w a1=as p1=ps a2=ad p2=pd
+node "net3" 10 80.4567 25 21 ndif 0 0 0 0 187 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 38 0 0 0 0 0 0 0 0
+node "net2" 10 44.0068 8 21 ndif 0 0 0 0 187 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 38 0 0 0 0 0 0 0 0
+node "Y" 33 312.761 59 21 ndif 0 0 0 0 187 56 374 90 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 497 204 80 36 0 0 0 0 0 0
+node "net1" 321 839.342 -9 21 ndif 0 0 0 0 187 56 748 180 0 0 0 0 1266 426 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1014 408 0 0 0 0 0 0 0 0
+node "C" 118 323.169 30 41 p 0 0 0 0 0 0 0 0 0 0 0 0 630 214 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 80 36 0 0 0 0 0 0
+node "B" 118 285.887 19 16 p 0 0 0 0 0 0 0 0 0 0 0 0 630 214 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 80 36 0 0 0 0 0 0
+node "A" 118 341.967 -4 60 p 0 0 0 0 0 0 0 0 0 0 0 0 630 214 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 80 36 0 0 0 0 0 0
+node "VDD" 1950 2496.23 -18 63 nw 7296 356 0 0 423 148 1122 270 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1911 382 0 0 0 0 0 0 0 0
+substrate "VSS" 0 0 6 5 ppd 0 0 0 0 374 112 405 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1756 320 0 0 0 0 0 0 0 0
+cap "A" "B" 68.1871
+cap "net3" "Y" 8.70293
+cap "net1" "Y" 283.188
+cap "VDD" "net1" 667.196
+cap "Y" "C" 31.9778
+cap "VDD" "C" 86.4246
+cap "B" "net3" 8.71415
+cap "A" "net1" 229.163
+cap "net1" "B" 182.395
+cap "net2" "Y" 0.438403
+cap "A" "C" 0.671267
+cap "B" "C" 96.9231
+cap "net1" "net3" 1.68644
+cap "A" "net2" 3.75177
+cap "net2" "B" 3.75177
+cap "net3" "C" 26.1549
+cap "VDD" "Y" 181.922
+cap "net1" "C" 141.557
+cap "net2" "net3" 53.6239
+cap "A" "Y" 0.383288
+cap "net2" "net1" 80.2931
+cap "VDD" "A" 124.621
+cap "B" "Y" 2.40169
+cap "VDD" "B" 117.139
+device msubckt nfet_03v3 70 21 71 22 l=6 w=17 "VSS" "net1" 12 0 "Y" 17 93,28 "VSS" 17 187,56
+device msubckt nfet_03v3 53 21 54 22 l=6 w=17 "VSS" "net1" 12 0 "VSS" 17 93,28 "Y" 17 93,28
+device msubckt nfet_03v3 36 21 37 22 l=6 w=17 "VSS" "C" 12 0 "net3" 17 93,28 "VSS" 17 93,28
+device msubckt nfet_03v3 19 21 20 22 l=6 w=17 "VSS" "B" 12 0 "net2" 17 93,28 "net3" 17 93,28
+device msubckt nfet_03v3 2 21 3 22 l=6 w=17 "VSS" "A" 12 0 "net1" 17 187,56 "net2" 17 93,28
+device msubckt pfet_03v3 70 72 71 73 l=6 w=34 "VDD" "net1" 12 0 "Y" 34 187,45 "VDD" 34 374,90
+device msubckt pfet_03v3 53 72 54 73 l=6 w=34 "VDD" "net1" 12 0 "VDD" 34 187,45 "Y" 34 187,45
+device msubckt pfet_03v3 36 72 37 73 l=6 w=34 "VDD" "C" 12 0 "net1" 34 187,45 "VDD" 34 187,45
+device msubckt pfet_03v3 19 72 20 73 l=6 w=34 "VDD" "B" 12 0 "VDD" 34 187,45 "net1" 34 187,45
+device msubckt pfet_03v3 2 72 3 73 l=6 w=34 "VDD" "A" 12 0 "net1" 34 374,90 "VDD" 34 187,45
