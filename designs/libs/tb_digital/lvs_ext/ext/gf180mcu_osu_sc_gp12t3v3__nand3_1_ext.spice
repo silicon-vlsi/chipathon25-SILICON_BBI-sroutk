@@ -1,5 +1,6 @@
 * SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__nand3_1_ext.ext - technology: gf180mcuD
 
+.SUBCKT gf180mcu_osu_sc_gp12t3v3__nand3_1 A B C Y VDD  VSS
 X0 VDD A Y VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
 X1 Y B VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
 X2 a_250_210# B a_80_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
@@ -16,7 +17,8 @@ C6 Y C 0.12513f
 C7 VDD A 0.1063f
 C8 VDD C 0.11076f
 C9 VDD VSS 1.79533f
-C10 Y VSS 0.56392f **FLOATING
-C11 C VSS 0.61199f **FLOATING
-C12 B VSS 0.51164f **FLOATING
-C13 A VSS 0.57715f **FLOATING
+C10 Y VSS 0.56392f 
+C11 C VSS 0.61199f 
+C12 B VSS 0.51164f 
+C13 A VSS 0.57715f 
+.ENDS

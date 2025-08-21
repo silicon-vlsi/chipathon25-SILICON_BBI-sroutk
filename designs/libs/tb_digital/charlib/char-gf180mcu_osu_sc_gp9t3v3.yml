@@ -31,7 +31,7 @@ cells:
         outputs:    ['Y']
         functions: [Y=A&B&C]
     gf180mcu_osu_sc_gp9t3v3_nor3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp9t3v3_nor3_1_ext.spice
+        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp9t3v3__nor3_1_ext.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=!(A|B|C)]
