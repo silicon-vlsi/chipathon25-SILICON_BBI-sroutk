@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755623585
+timestamp 1755700674
 << nwell >>
 rect -18 63 96 127
 << nmos >>
@@ -80,39 +80,39 @@ rect 45 94 50 104
 rect 62 94 67 104
 rect 79 94 84 104
 << psubdiff >>
-rect 6 12 21 14
-rect 6 7 11 12
-rect 16 7 21 12
-rect 6 5 21 7
-rect 40 12 55 14
-rect 40 7 45 12
-rect 50 7 55 12
-rect 40 5 55 7
-rect 74 12 89 14
-rect 74 7 79 12
-rect 84 7 89 12
-rect 74 5 89 7
+rect -9 12 6 14
+rect -9 7 -4 12
+rect 1 7 6 12
+rect -9 5 6 7
+rect 34 12 49 14
+rect 34 7 39 12
+rect 44 7 49 12
+rect 34 5 49 7
+rect 72 12 87 14
+rect 72 7 77 12
+rect 82 7 87 12
+rect 72 5 87 7
 << nsubdiff >>
-rect 6 120 21 122
-rect 6 115 11 120
-rect 16 115 21 120
-rect 6 113 21 115
-rect 40 120 56 122
-rect 40 115 45 120
-rect 50 115 56 120
-rect 40 113 56 115
-rect 74 120 90 122
-rect 74 115 79 120
-rect 84 115 90 120
-rect 74 113 90 115
+rect -9 120 6 122
+rect -9 115 -4 120
+rect 1 115 6 120
+rect -9 113 6 115
+rect 34 120 49 122
+rect 34 115 39 120
+rect 44 115 49 120
+rect 34 113 49 115
+rect 72 120 87 122
+rect 72 115 77 120
+rect 82 115 87 120
+rect 72 113 87 115
 << psubdiffcont >>
-rect 11 7 16 12
-rect 45 7 50 12
-rect 79 7 84 12
+rect -4 7 1 12
+rect 39 7 44 12
+rect 77 7 82 12
 << nsubdiffcont >>
-rect 11 115 16 120
-rect 45 115 50 120
-rect 79 115 84 120
+rect -4 115 1 120
+rect 39 115 44 120
+rect 77 115 82 120
 << polysilicon >>
 rect 2 106 8 111
 rect 19 106 25 111
@@ -157,10 +157,10 @@ rect 49 62 55 68
 rect 32 43 38 49
 << metal1 >>
 rect -18 120 96 127
-rect -18 115 11 120
-rect 16 115 45 120
-rect 50 115 79 120
-rect 84 115 96 120
+rect -18 115 -4 120
+rect 1 115 39 120
+rect 44 115 77 120
+rect 82 115 96 120
 rect -18 113 96 115
 rect -6 104 -1 106
 rect -6 84 -1 94
@@ -200,10 +200,10 @@ rect 62 21 67 23
 rect 79 28 84 30
 rect 79 14 84 23
 rect -18 12 96 14
-rect -18 7 11 12
-rect 16 7 45 12
-rect 50 7 79 12
-rect 84 7 96 12
+rect -18 7 -4 12
+rect 1 7 39 12
+rect 44 7 77 12
+rect 82 7 96 12
 rect -18 0 96 7
 << via1 >>
 rect -2 62 4 68
@@ -228,19 +228,19 @@ rect 68 43 70 49
 rect 76 43 78 49
 rect 68 42 78 43
 << labels >>
-rlabel nsubdiffcont 13 117 13 117 1 VDD
-rlabel psubdiffcont 13 10 13 10 1 VSS
-flabel psubdiffcont 11 7 16 12 0 FreeSans 16 0 0 0 VSS
-flabel nsubdiffcont 11 115 16 120 0 FreeSans 16 0 0 0 VDD
 flabel via1 70 43 76 49 0 FreeSans 32 0 0 0 Y
-rlabel nsubdiffcont 45 115 50 120 1 VDD
-rlabel nsubdiffcont 79 115 84 120 1 VDD
-rlabel psubdiffcont 45 7 50 12 1 VSS
-rlabel psubdiffcont 79 7 84 12 1 VSS
 flabel pdiffc -6 94 -1 104 0 FreeSans 16 0 0 0 net1
 flabel ndiffc 11 23 16 28 0 FreeSans 16 0 0 0 net2
 flabel ndiffc 28 23 33 28 0 FreeSans 16 0 0 0 net3
-flabel metal2 -2 62 4 68 0 FreeSans 16 0 0 0 A
-flabel metal2 23 62 29 68 0 FreeSans 16 0 0 0 B
-flabel metal2 32 43 38 49 0 FreeSans 16 0 0 0 C
+rlabel nsubdiffcont -4 115 1 120 1 VDD
+rlabel nsubdiffcont 39 115 44 120 1 VDD
+rlabel nsubdiffcont 77 115 82 120 1 VDD
+rlabel psubdiffcont -4 7 1 12 1 VSS
+rlabel psubdiffcont 39 7 44 12 1 VSS
+rlabel psubdiffcont 77 7 82 12 1 VSS
+flabel metal2 -2 62 4 68 0 FreeSans 32 0 0 0 A
+flabel metal2 23 62 29 68 0 FreeSans 32 0 0 0 B
+flabel metal2 32 43 38 49 0 FreeSans 32 0 0 0 C
+flabel metal1 -18 122 2 127 0 FreeSans 32 0 0 0 VDD
+flabel metal1 -18 0 2 5 0 FreeSans 32 0 0 0 VSS
 << end >>

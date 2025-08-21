@@ -1,4 +1,4 @@
-* SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__and3_1_ext.ext - technology: gf180mcuD
+* SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__and3_1_ext_lvs.ext - technology: gf180mcuD
 
 X0 VDD A a_90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
 X1 Y a_90_210# VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
@@ -8,22 +8,3 @@ X4 a_420_210# B a_250_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u
 X5 VSS C a_420_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
 X6 Y a_90_210# VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
 X7 VDD C a_90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
-C0 C Y 0.03355f
-C1 VDD B 0.0938f
-C2 a_90_210# VDD 0.65493f
-C3 A VDD 0.10084f
-C4 VDD Y 0.19148f
-C5 a_90_210# B 0.16365f
-C6 A B 0.09405f
-C7 a_90_210# A 0.236f
-C8 Y B 0.01334f
-C9 a_90_210# Y 0.16617f
-C10 C VDD 0.09443f
-C11 C B 0.11486f
-C12 a_90_210# C 0.19919f
-C13 Y VSS 0.46251f **FLOATING
-C14 a_90_210# VSS 1.03872f **FLOATING
-C15 C VSS 0.52541f **FLOATING
-C16 B VSS 0.51514f **FLOATING
-C17 A VSS 0.61257f **FLOATING
-C18 VDD VSS 2.09312f **FLOATING
