@@ -26,17 +26,17 @@ settings:
         loads: [0.00103698, 0.00444906, 0.0190882, 0.0818956, 0.351363, 1.50748]
 cells:
     gf180mcu_osu_sc_gp12t3v3__and3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__and3_1.spice
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp12t3v3/cells/and3/gf180mcu_osu_sc_gp12t3v3__and3_1.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=A&B&C]
     gf180mcu_osu_sc_gp12t3v3__nand3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__nand3_1.spice
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nand3/gf180mcu_osu_sc_gp12t3v3__nand3_1.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=!(A&B&C)]
     gf180mcu_osu_sc_gp12t3v3__nor3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__nor3_1.spice
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nor3/gf180mcu_osu_sc_gp12t3v3__nor3_1.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=!(A|B|C)]

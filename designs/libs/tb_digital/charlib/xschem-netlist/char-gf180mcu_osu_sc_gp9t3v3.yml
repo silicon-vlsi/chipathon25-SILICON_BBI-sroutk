@@ -1,5 +1,5 @@
 settings:
-    lib_name:             gf180mcu_osu_sc_gp12t3v3_TT_25C
+    lib_name:             gf180mcu_osu_sc_gp9t3v3_TT_25C.
     omit_on_failure:      True
     units:
         time:               ns
@@ -25,19 +25,19 @@ settings:
         slews: [0.0778447, 0.205581, 0.542922, 1.43381, 3.78657, 10]
         loads: [0.00103698, 0.00444906, 0.0190882, 0.0818956, 0.351363, 1.50748]
 cells:
-    gf180mcu_osu_sc_gp12t3v3__and3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__and3_1.spice
+    gf180mcu_osu_sc_gp9t3v3__and3_2:
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/gf180mcu_osu_sc_gp9t3v3__and3_2.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=A&B&C]
-    gf180mcu_osu_sc_gp12t3v3__nand3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__nand3_1.spice
-        inputs:     [A, B, C]
-        outputs:    ['Y']
-        functions: [Y=!(A&B&C)]
-    gf180mcu_osu_sc_gp12t3v3__nor3_1:
-        netlist: ../lvs_ext/ext/gf180mcu_osu_sc_gp12t3v3__nor3_1.spice
+    gf180mcu_osu_sc_gp9t3v3_nor3_1:
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp9t3v3/cells/nor3/gf180mcu_osu_sc_gp9t3v3_nor3_1.spice
         inputs:     [A, B, C]
         outputs:    ['Y']
         functions: [Y=!(A|B|C)]
+    gf180mcu_osu_sc_gp9t3v3__or3_1:
+        netlist: ../../core_digital/gf180mcu_osu_sc_gp9t3v3/cells/or3/gf180mcu_osu_sc_gp9t3v3__or3_1.spice
+        inputs:     [A, B, C]
+        outputs:    ['Y']
+        functions: [Y=A|B|C]
           
