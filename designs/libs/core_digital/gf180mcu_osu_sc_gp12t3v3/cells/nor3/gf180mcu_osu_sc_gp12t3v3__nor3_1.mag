@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755702905
+timestamp 1755888267
 << nwell >>
 rect -3 102 75 166
 << nmos >>
@@ -177,5 +177,5 @@ flabel metal1 -2 2 6 5 0 FreeSans 32 0 0 0 VSS
 flabel metal2 8 72 14 78 0 FreeSans 48 0 0 0 A
 flabel metal2 30 59 36 65 0 FreeSans 48 0 0 0 B
 flabel metal2 58 82 64 88 0 FreeSans 48 0 0 0 C
-flabel via1 58 46 64 52 0 FreeSans 48 0 0 0 Y
+flabel metal2 56 45 66 53 0 FreeSans 32 0 0 0 Y
 << end >>

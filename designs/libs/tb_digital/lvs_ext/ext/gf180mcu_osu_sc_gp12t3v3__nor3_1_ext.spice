@@ -1,29 +1,22 @@
-* NGSPICE file created from gf180mcu_osu_sc_gp12t3v3__nor3_1.ext - technology: gf180mcuD
+* SPICE3 file created from gf180mcu_osu_sc_gp12t3v3__nor3_1_ext.ext - technology: gf180mcuD
 
-X0 VSS B net3 VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
-X1 net3 C VSS VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
-X2 net3 A VSS VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
-X3 net3 C a_33_111# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
-X4 a_33_111# B a_22_111# VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.2125p ps=1.95u w=1.7u l=0.3u
-X5 a_22_111# A VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
-C0 C VDD 0.16048f
-C1 a_33_111# VDD 0.00531f
-C2 A VDD 0.11248f
-C3 net3 a_22_111# 0.00103f
+X0 net3 A VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X1 VSS B net3 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X2 a_330_1110# B a_220_1110# VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X3 net3 C VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 net3 C a_330_1110# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X5 a_220_1110# A VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+C0 VDD C 0.16048f
+C1 VDD net3 0.10733f
+C2 A net3 0.03072f
+C3 C net3 0.1677f
 C4 VDD B 0.07962f
-C5 C A 0.00141f
-C6 net3 VDD 0.10733f
-C7 C B 0.10301f
-C8 a_33_111# B 0.00219f
-C9 A B 0.19643f
-C10 net3 C 0.1677f
-C11 net3 a_33_111# 0
-C12 net3 A 0.03072f
-C13 a_22_111# VDD 0.00549f
-C14 net3 B 0.17299f
-C15 VDD VSS 1.80192f
-C16 net3 VSS 0.80093f
-C17 a_22_111# VSS 0
-C18 C VSS 0.67281f
-C19 B VSS 0.50587f
-C20 A VSS 0.6389f
+C5 A B 0.19643f
+C6 B C 0.10301f
+C7 A VDD 0.11248f
+C8 B net3 0.17299f
+C9 VDD VSS 1.80192f
+C10 net3 VSS 0.80093f **FLOATING
+C11 C VSS 0.67281f **FLOATING
+C12 B VSS 0.50587f **FLOATING
+C13 A VSS 0.6389f **FLOATING
