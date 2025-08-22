@@ -1,0 +1,154 @@
+library (gf180mcu_osu_sc_gp12t3v3_TT_25C) {
+  technology : cmos;
+  delay_model : table_lookup;
+  bus_naming_style : "%s-%d";
+
+  /* Units */
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  current_unit : "1mA";
+  pulling_resistance_unit : "1kOhm";
+  leakage_power_unit : "1nW";
+  capacitive_load_unit : "1pF";
+
+  /* Slew characteristics */
+  slew_upper_threshold_pct_rise : 80;
+  slew_lower_threshold_pct_rise : 20;
+  slew_upper_threshold_pct_fall : 80;
+  slew_lower_threshold_pct_fall : 20;
+  input_threshold_pct_rise : 50;
+  input_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  output_threshold_pct_fall : 50;
+
+  /* Operating Conditions */
+  nom_process : 1;
+  nom_voltage : 3.3;
+  nom_temperature : 25;
+
+  /* Table Templates */
+  lu_table_template (delay_template_1x1) {
+    variable_1 : input_net_transition;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("0.0778447");
+    index_2 ("0.00103698");
+  }
+
+  /* GF180MCU_OSU_SC_GP12T3V3__NOR3_1 */
+  cell (GF180MCU_OSU_SC_GP12T3V3__NOR3_1) {
+    area : 0;
+    pg_pin (VDD) {
+      voltage_name : VDD;
+      pg_type : primary_power;
+    }
+    pg_pin (VSS) {
+      voltage_name : VSS;
+      pg_type : primary_ground;
+    }
+    pg_pin (VPW) {
+      voltage_name : VPW;
+      pg_type : pwell;
+    }
+    pg_pin (VNW) {
+      voltage_name : VNW;
+      pg_type : nwell;
+    }
+    pin (A) {
+      direction : input;
+      capacitance : 0.003267;
+    }
+    pin (B) {
+      direction : input;
+      capacitance : 0.003139;
+    }
+    pin (C) {
+      direction : input;
+      capacitance : 0.003273;
+    }
+    pin (Y) {
+      direction : output;
+      function : "!(A|B|C)";
+      timing () {
+        related_pin : "A";
+        cell_rise (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.151851");
+        }
+        rise_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.122902");
+        }
+        cell_fall (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.054974");
+        }
+        fall_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.055999");
+        }
+      }
+      timing () {
+        related_pin : "B";
+        cell_rise (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.127596");
+        }
+        rise_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.122689");
+        }
+        cell_fall (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.054592");
+        }
+        fall_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.044280");
+        }
+      }
+      timing () {
+        related_pin : "C";
+        cell_rise (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.074343");
+        }
+        rise_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.111307");
+        }
+        cell_fall (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.040713");
+        }
+        fall_transition (delay_template_1x1) {
+          index_1 ("0.0778447");
+          index_2 ("0.00103698");
+          values ( \
+            "0.027817");
+        }
+      }
+    }
+  }
+}
