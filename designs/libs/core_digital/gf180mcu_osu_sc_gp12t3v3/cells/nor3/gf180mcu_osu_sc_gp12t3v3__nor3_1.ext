@@ -1,4 +1,4 @@
-timestamp 1755702905
+timestamp 1755888267
 version 8.3
 tech gf180mcuD
 style ngspice()
@@ -21,21 +21,21 @@ node "VDD" 1284 1801.92 14 157 nsc 4992 284 0 0 270 96 340 88 0 0 0 0 0 0 0 0 0 
 equiv "VDD" "net1"
 substrate "VSS" 0 0 13 9 psc 0 0 0 0 357 110 270 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1332 280 0 0 0 0 0 0 0 0
 equiv "VSS" "net2"
-cap "net3" "VDD" 107.334
+cap "VDD" "A" 112.475
+cap "VDD" "a_33_111#" 5.31161
+cap "A" "net3" 30.7156
+cap "net3" "a_33_111#" 0.749769
+cap "B" "C" 103.012
+cap "VDD" "B" 79.6239
 cap "B" "net3" 172.992
-cap "net3" "A" 30.7156
-cap "C" "net3" 167.7
-cap "a_33_111#" "VDD" 5.31161
-cap "B" "a_33_111#" 2.19107
-cap "a_22_111#" "VDD" 5.4882
-cap "a_33_111#" "net3" 0.749769
-cap "a_22_111#" "net3" 1.02774
-cap "B" "VDD" 79.6239
-cap "A" "VDD" 112.475
+cap "VDD" "a_22_111#" 5.4882
 cap "B" "A" 196.433
-cap "C" "VDD" 160.485
-cap "C" "B" 103.012
-cap "C" "A" 1.41215
+cap "B" "a_33_111#" 2.19107
+cap "net3" "a_22_111#" 1.02774
+cap "VDD" "C" 160.485
+cap "net3" "C" 167.7
+cap "VDD" "net3" 107.334
+cap "A" "C" 1.41215
 device msubckt nfet_03v3 50 21 51 22 l=6 w=17 "VSS" "C" 12 0 "VSS" 17 93,28 "net3" 17 170,54
 device msubckt nfet_03v3 33 21 34 22 l=6 w=17 "VSS" "B" 12 0 "net3" 17 93,28 "VSS" 17 93,28
 device msubckt nfet_03v3 16 21 17 22 l=6 w=17 "VSS" "A" 12 0 "VSS" 17 170,54 "net3" 17 93,28
