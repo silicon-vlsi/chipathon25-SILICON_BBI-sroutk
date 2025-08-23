@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1755888267
+timestamp 1755948971
 << nwell >>
 rect -3 102 75 166
 << nmos >>
@@ -120,14 +120,15 @@ rect 36 59 38 65
 rect 44 52 49 103
 rect 56 82 58 88
 rect 64 82 66 88
-rect 58 52 65 54
+rect 58 53 65 54
+rect 56 52 66 53
 rect 44 51 58 52
 rect 25 46 58 51
-rect 64 46 65 52
+rect 64 46 66 52
 rect 8 36 13 38
 rect 8 14 13 23
 rect 25 36 30 46
-rect 59 45 65 46
+rect 56 45 66 46
 rect 25 21 30 23
 rect 42 36 47 38
 rect 42 14 47 23
@@ -169,13 +170,14 @@ rlabel nsubdiffcont 11 154 16 159 1 VDD
 rlabel nsubdiffcont 35 154 40 159 1 VDD
 rlabel psubdiffcont 11 7 16 12 1 VSS
 rlabel psubdiffcont 35 7 40 12 1 VSS
-rlabel pdiffc 8 113 13 143 1 net1
 rlabel ndiffc 8 23 13 36 1 net2
 rlabel ndiffc 25 23 30 36 1 net3
 flabel metal1 -1 161 7 164 0 FreeSans 32 0 0 0 VDD
 flabel metal1 -2 2 6 5 0 FreeSans 32 0 0 0 VSS
-flabel metal2 8 72 14 78 0 FreeSans 48 0 0 0 A
-flabel metal2 30 59 36 65 0 FreeSans 48 0 0 0 B
-flabel metal2 58 82 64 88 0 FreeSans 48 0 0 0 C
+rlabel pdiffc 8 113 13 143 1 net1
+flabel metal2 6 71 16 79 0 FreeSans 32 0 0 0 A
+flabel metal2 28 58 38 66 0 FreeSans 32 0 0 0 B
+flabel metal2 56 81 66 89 0 FreeSans 32 0 0 0 C
 flabel metal2 56 45 66 53 0 FreeSans 32 0 0 0 Y
+port 7 nsew
 << end >>
