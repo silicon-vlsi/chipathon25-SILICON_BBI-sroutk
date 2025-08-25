@@ -2,7 +2,7 @@
 #tech load /foss/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.tech 
 
 # Load your layout cell
-load .../designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/f180mcu_osu_sc_gp9t3v3__and3_2.mag
+load .../designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/and3/f180mcu_osu_sc_gp12t3v3__and3_1.mag
 
 
 
@@ -21,6 +21,6 @@ ext2spice global on
 ext2spice subcircuit descend on
 
 # Output the SPICE file, in ngspice format, with a chosen output filename
-ext2spice -d -o lvs/gf180mcu_osu_sc_gp9t3v3__and3_2_ext_lvs.spice -f ngspice
+ext2spice -d -o lvs/gf180mcu_osu_sc_gp12t3v3__and3_1_ext_lvs.spice -f ngspice
 
 
