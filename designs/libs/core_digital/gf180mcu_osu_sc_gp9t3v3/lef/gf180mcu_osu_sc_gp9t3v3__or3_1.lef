@@ -7,35 +7,76 @@ MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
   FOREIGN gf180mcu_osu_sc_gp9t3v3__or3_1 ;
   ORIGIN -5.250 0.000 ;
   SIZE 4.750 BY 6.350 ;
-  OBS
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.900 3.100 6.400 3.400 ;
+      LAYER Metal2 ;
+        RECT 5.900 3.050 6.400 3.450 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.150 3.100 7.650 3.400 ;
+      LAYER Metal2 ;
+        RECT 7.150 3.050 7.650 3.450 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.000 2.100 8.500 2.400 ;
+      LAYER Metal2 ;
+        RECT 8.000 2.050 8.500 2.450 ;
+    END
+  END C
+  PIN VDD
+    USE POWER ;
+    PORT
       LAYER Nwell ;
         RECT 5.250 3.150 10.000 6.350 ;
       LAYER Metal1 ;
         RECT 5.250 5.650 10.000 6.350 ;
+        RECT 8.350 4.400 8.600 5.650 ;
+    END
+  END VDD
+  PIN Y
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 9.200 2.350 9.450 5.300 ;
+        RECT 9.200 2.050 9.900 2.350 ;
+        RECT 9.200 1.050 9.450 2.050 ;
+      LAYER Metal2 ;
+        RECT 9.400 2.000 9.900 2.400 ;
+    END
+  END Y
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT 5.250 0.000 10.000 3.150 ;
+      LAYER Metal1 ;
+        RECT 6.650 0.700 6.900 1.550 ;
+        RECT 8.350 0.700 8.600 1.550 ;
+        RECT 5.250 0.000 10.000 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
         RECT 5.800 4.050 6.050 5.300 ;
         RECT 6.650 4.400 6.900 5.300 ;
         RECT 7.500 4.400 7.750 5.300 ;
-        RECT 8.350 4.400 8.600 5.650 ;
         RECT 5.800 3.800 8.850 4.050 ;
-        RECT 5.900 3.100 6.400 3.400 ;
         RECT 6.650 2.050 6.900 3.800 ;
-        RECT 7.150 3.100 7.650 3.400 ;
         RECT 8.550 3.000 8.850 3.800 ;
-        RECT 8.000 2.100 8.500 2.400 ;
-        RECT 9.200 2.350 9.450 5.300 ;
-        RECT 9.200 2.050 9.900 2.350 ;
         RECT 5.800 1.800 7.750 2.050 ;
         RECT 5.800 1.050 6.050 1.800 ;
-        RECT 6.650 0.700 6.900 1.550 ;
         RECT 7.500 1.050 7.750 1.800 ;
-        RECT 8.350 0.700 8.600 1.550 ;
-        RECT 9.200 1.050 9.450 2.050 ;
-        RECT 5.250 0.000 10.000 0.700 ;
-      LAYER Metal2 ;
-        RECT 5.900 3.050 6.400 3.450 ;
-        RECT 7.150 3.050 7.650 3.450 ;
-        RECT 8.000 2.050 8.500 2.450 ;
-        RECT 9.400 2.000 9.900 2.400 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__or3_1
 END LIBRARY

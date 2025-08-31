@@ -7,6 +7,33 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nor3_1
   FOREIGN gf180mcu_osu_sc_gp12t3v3__nor3_1 ;
   ORIGIN 0.150 0.000 ;
   SIZE 3.900 BY 8.300 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.300 3.600 0.800 3.900 ;
+      LAYER Metal2 ;
+        RECT 0.300 3.550 0.800 3.950 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.400 2.950 1.900 3.250 ;
+      LAYER Metal2 ;
+        RECT 1.400 2.900 1.900 3.300 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.800 4.100 3.300 4.400 ;
+      LAYER Metal2 ;
+        RECT 2.800 4.050 3.300 4.450 ;
+    END
+  END C
   PIN VDD
     USE POWER ;
     PORT
@@ -17,15 +44,6 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nor3_1
         RECT 0.400 5.550 0.650 7.600 ;
     END
   END VDD
-  PIN VSS
-    USE GROUND ;
-    PORT
-      LAYER Metal1 ;
-        RECT 0.400 0.700 0.650 1.900 ;
-        RECT 2.100 0.700 2.350 1.900 ;
-        RECT -0.150 0.000 3.750 0.700 ;
-    END
-  END VSS
   PIN Y
     ANTENNADIFFAREA 1.742500 ;
     PORT
@@ -44,16 +62,17 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nor3_1
         RECT 2.800 2.250 3.300 2.650 ;
     END
   END Y
-  OBS
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT -0.150 0.000 3.750 5.100 ;
       LAYER Metal1 ;
-        RECT 2.800 4.100 3.300 4.400 ;
-        RECT 0.300 3.600 0.800 3.900 ;
-        RECT 1.400 2.950 1.900 3.250 ;
-      LAYER Metal2 ;
-        RECT 2.800 4.050 3.300 4.450 ;
-        RECT 0.300 3.550 0.800 3.950 ;
-        RECT 1.400 2.900 1.900 3.300 ;
-  END
+        RECT 0.400 0.700 0.650 1.900 ;
+        RECT 2.100 0.700 2.350 1.900 ;
+        RECT -0.150 0.000 3.750 0.700 ;
+    END
+  END VSS
 END gf180mcu_osu_sc_gp12t3v3__nor3_1
 END LIBRARY
 
