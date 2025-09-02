@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1756607607
+timestamp 1756759284
 << nwell >>
 rect 105 63 200 127
 << pwell >>
@@ -210,17 +210,17 @@ rect 188 41 190 47
 rect 196 41 198 47
 rect 188 40 198 41
 << labels >>
-flabel metal2 118 61 128 69 0 FreeSans 48 0 0 0 A
-port 1 nsew
 flabel metal2 143 61 153 69 0 FreeSans 48 0 0 0 B
 port 2 nsew
-flabel metal2 160 41 170 49 0 FreeSans 48 0 0 0 C
-port 3 nsew
-flabel nwell 114 117 130 125 0 FreeSans 48 0 0 0 VDD
-port 4 nsew
 flabel metal2 188 40 198 48 0 FreeSans 48 0 0 0 Y
 port 5 nsew
-flabel metal1 114 3 130 11 0 FreeSans 48 0 0 0 VSS
+flabel metal2 160 41 170 49 0 FreeSans 48 0 0 0 A
+port 1 nsew
+flabel metal2 118 61 128 69 0 FreeSans 48 0 0 0 C
+port 3 nsew
+flabel metal1 129 119 145 126 0 FreeSans 48 0 0 0 VDD
+port 4 nsew
+flabel metal1 129 2 145 9 0 FreeSans 48 0 0 0 VSS
 port 6 nsew
 << properties >>
 string FIXED_BBOX 105 0 200 127

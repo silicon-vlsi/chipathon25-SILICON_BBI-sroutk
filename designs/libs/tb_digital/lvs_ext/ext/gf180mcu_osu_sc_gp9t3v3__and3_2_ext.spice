@@ -1,37 +1,48 @@
-* SPICE3 file created from gf180mcu_osu_sc_gp9t3v3__and3_2_ext.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__and3_2.ext - technology: gf180mcuD
 
-.SUBCKT gf180mcu_osu_sc_gp9t3v3__and3_2 A B C Y VDD VSS
-X0 VDD net1 Y VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X1 net3 B net2 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X2 net1 B VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X3 VSS C net3 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X4 VDD C net1 VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X5 Y net1 VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X6 net2 A net1 VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
-X7 Y net1 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
-X8 VSS net1 Y VSS nfet_03v3 ad=0.4675p pd=2.8u as=0.23375p ps=1.4u w=0.85u l=0.3u
-X9 VDD A net1 VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.935p ps=4.5u w=1.7u l=0.3u
-C0 C VDD 0.08642f
-C1 net2 net1 0.08029f
-C2 C B 0.09692f
-C3 Y net1 0.28319f
-C4 B VDD 0.11714f
-C5 A VDD 0.12462f
-C6 net2 net3 0.05362f
-C7 C net1 0.14156f
-C8 B A 0.06819f
-C9 VDD net1 0.6672f
-C10 C Y 0.03198f
-C11 Y VDD 0.18192f
-C12 B net1 0.1824f
-C13 C net3 0.02615f
-C14 A net1 0.22916f
-C15 net3 VSS 0.08046f 
-C16 net2 VSS 0.04401f 
-C17 Y VSS 0.31276f 
-C18 net1 VSS 0.83934f 
-C19 C VSS 0.32317f 
-C20 B VSS 0.28589f 
-C21 A VSS 0.34197f 
-C22 VDD VSS 2.49623f 
-.ENDS
+.subckt gf180mcu_osu_sc_gp9t3v3__and3_2 A B Y C VDD VSS
+X0 VDD a_n90_210# Y VDD pfet_03v3 ad=0.561p pd=2.7u as=0.4675p ps=2.25u w=1.7u l=0.3u
+**devattr s=18700,450 d=37400,900
+X1 a_250_210# B a_80_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X2 a_n90_210# B VDD VDD pfet_03v3 ad=0.62333p pd=3u as=0.561p ps=2.7u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X3 VSS C a_250_210# VSS nfet_03v3 ad=0.31167p pd=1.86667u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X4 VDD C a_n90_210# VDD pfet_03v3 ad=0.561p pd=2.7u as=0.62333p ps=3u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X5 Y a_n90_210# VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.31167p ps=1.86667u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X6 a_80_210# A a_n90_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
+**devattr s=18700,560 d=9350,280
+X7 Y a_n90_210# VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.561p ps=2.7u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X8 VSS a_n90_210# Y VSS nfet_03v3 ad=0.31167p pd=1.86667u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=18700,560
+X9 VDD A a_n90_210# VDD pfet_03v3 ad=0.561p pd=2.7u as=0.62333p ps=3u w=1.7u l=0.3u
+**devattr s=37400,900 d=18700,450
+C0 C Y 0.03198f
+C1 VDD A 0.12462f
+C2 B a_n90_210# 0.1824f
+C3 C a_250_210# 0.02615f
+C4 a_n90_210# Y 0.28319f
+C5 B A 0.06819f
+C6 A a_n90_210# 0.22916f
+C7 VDD C 0.08642f
+C8 a_n90_210# a_80_210# 0.08029f
+C9 B VDD 0.11714f
+C10 B C 0.09692f
+C11 VDD a_n90_210# 0.6672f
+C12 C a_n90_210# 0.14156f
+C13 a_80_210# a_250_210# 0.05362f
+C14 VDD Y 0.18192f
+C15 Y VSS 0.31276f
+C16 C VSS 0.32317f
+C17 B VSS 0.28589f
+C18 A VSS 0.34197f
+C19 VDD VSS 2.49623f
+C20 a_250_210# VSS 0.08046f
+C21 a_80_210# VSS 0.04401f
+C22 a_n90_210# VSS 0.83934f
+.ends
+

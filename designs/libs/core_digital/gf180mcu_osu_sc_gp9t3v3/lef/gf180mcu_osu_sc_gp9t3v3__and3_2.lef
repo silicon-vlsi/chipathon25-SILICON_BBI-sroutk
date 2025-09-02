@@ -20,9 +20,9 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
-        RECT 1.500 2.150 2.000 2.450 ;
+        RECT 1.050 3.100 1.550 3.400 ;
       LAYER Metal2 ;
-        RECT 1.500 2.100 2.000 2.500 ;
+        RECT 1.050 3.050 1.550 3.450 ;
     END
   END B
   PIN Y
@@ -40,9 +40,9 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
-        RECT 1.050 3.100 1.550 3.400 ;
+        RECT 1.500 2.150 2.000 2.450 ;
       LAYER Metal2 ;
-        RECT 1.050 3.050 1.550 3.450 ;
+        RECT 1.500 2.100 2.000 2.500 ;
     END
   END C
   PIN VDD
