@@ -1,30 +1,38 @@
-* SPICE3 file created from gf180mcu_osu_sc_gp9t3v3__nor3_1_ext.ext - technology: gf180mcuD
-.SUBCKT gf180mcu_osu_sc_gp9t3v3__nor3_1 A B C Y VDD VSS
-X0 Y A VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
-X1 Y C VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__nor3_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__nor3_1 A B C VDD Y VSS
+X0 Y A VSS VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
+**devattr s=17000,540 d=9350,280
+X1 Y C VSS VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
+**devattr s=9350,280 d=17000,540
 X2 a_1390_720# A VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
-X3 VSS B Y VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=34000,880 d=18700,450
+X3 VSS B Y VSS nfet_03v3 ad=0.2975p pd=1.83333u as=0.2975p ps=1.83333u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
 X4 Y C a_1560_720# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+**devattr s=18700,450 d=34000,880
 X5 a_1560_720# B a_1390_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
-C0 a_1560_720# VDD 0.03943f
+**devattr s=18700,450 d=18700,450
+C0 a_1560_720# Y 0.12427f
 C1 Y a_1390_720# 0.05443f
-C2 Y C 0.1952f
-C3 VDD B 0.0864f
-C4 Y A 0.09325f
+C2 Y B 0.17304f
+C3 A B 0.06819f
+C4 Y VDD 0.12951f
 C5 a_1560_720# a_1390_720# 0.06353f
-C6 a_1560_720# Y 0.12427f
-C7 VDD Y 0.12951f
-C8 VDD a_1390_720# 0.10027f
-C9 VDD C 0.11849f
-C10 Y B 0.17304f
-C11 VDD A 0.11485f
-C12 C B 0.09692f
-C13 B A 0.06819f
-C14 Y VSS 0.54999f 
-C15 a_1560_720# VSS 0.01103f 
-C16 a_1390_720# VSS 0.01303f 
-C17 C VSS 0.34939f 
-C18 B VSS 0.32753f 
-C19 A VSS 0.40517f 
-C20 VDD VSS 1.74048f 
-.ENDS
+C6 C B 0.09692f
+C7 A VDD 0.11534f
+C8 C VDD 0.11849f
+C9 a_1560_720# VDD 0.03943f
+C10 a_1390_720# VDD 0.1036f
+C11 VDD B 0.0864f
+C12 Y A 0.09325f
+C13 C Y 0.1952f
+C14 Y VSS 0.54999f
+C15 C VSS 0.34939f
+C16 B VSS 0.32753f
+C17 A VSS 0.40516f
+C18 VDD VSS 1.74176f
+C19 a_1560_720# VSS 0.01103f
+C20 a_1390_720# VSS 0.01192f
+.ends
+
