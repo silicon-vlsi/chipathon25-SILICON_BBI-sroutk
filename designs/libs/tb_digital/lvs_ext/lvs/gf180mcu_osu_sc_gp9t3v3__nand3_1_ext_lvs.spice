@@ -1,0 +1,17 @@
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__nand3_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__nand3_1 A B Y C VDD VSS
+X0 Y B VDD VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X1 VSS C a_1450_210# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=17000,540
+X2 VDD A Y VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=34000,880 d=18700,450
+X3 VDD C Y VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=18700,450 d=34000,880
+X4 a_1450_210# B a_1280_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X5 a_1280_210# A Y VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+**devattr s=17000,540 d=9350,280
+.ends
+

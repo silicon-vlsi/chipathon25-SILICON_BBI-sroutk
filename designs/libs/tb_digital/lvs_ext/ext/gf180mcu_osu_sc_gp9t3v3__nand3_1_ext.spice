@@ -1,0 +1,36 @@
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__nand3_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__nand3_1 A B Y C VDD VSS
+X0 Y B VDD VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X1 VSS C a_1450_210# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=17000,540
+X2 VDD A Y VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=34000,880 d=18700,450
+X3 VDD C Y VDD pfet_03v3 ad=0.595p pd=2.96667u as=0.595p ps=2.96667u w=1.7u l=0.3u
+**devattr s=18700,450 d=34000,880
+X4 a_1450_210# B a_1280_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X5 a_1280_210# A Y VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+**devattr s=17000,540 d=9350,280
+C0 a_1280_210# Y 0.06432f
+C1 a_1450_210# C 0.0211f
+C2 A VDD 0.12453f
+C3 C VDD 0.09943f
+C4 A B 0.06746f
+C5 C B 0.09764f
+C6 A Y 0.23914f
+C7 C Y 0.05502f
+C8 a_1450_210# a_1280_210# 0.0458f
+C9 B VDD 0.11568f
+C10 Y VDD 0.39361f
+C11 Y B 0.14875f
+C12 Y VSS 0.32196f
+C13 C VSS 0.38414f
+C14 B VSS 0.2964f
+C15 A VSS 0.34976f
+C16 VDD VSS 1.74892f
+C17 a_1450_210# VSS 0.08349f
+C18 a_1280_210# VSS 0.04461f
+.ends
+

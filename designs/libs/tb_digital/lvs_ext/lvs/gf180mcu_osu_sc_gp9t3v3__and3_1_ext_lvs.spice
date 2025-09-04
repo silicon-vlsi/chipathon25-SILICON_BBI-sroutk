@@ -1,0 +1,21 @@
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__and3_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__and3_1 A B Y C VDD VSS
+X0 a_250_210# B a_80_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X1 a_n90_210# B VDD VDD pfet_03v3 ad=0.62333p pd=3u as=0.4675p ps=2.25u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X2 VSS C a_250_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=9350,280
+X3 VDD C a_n90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.62333p ps=3u w=1.7u l=0.3u
+**devattr s=18700,450 d=18700,450
+X4 Y a_n90_210# VSS VSS nfet_03v3 ad=0.4675p pd=2.8u as=0.23375p ps=1.4u w=0.85u l=0.3u
+**devattr s=9350,280 d=18700,560
+X5 a_80_210# A a_n90_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
+**devattr s=18700,560 d=9350,280
+X6 Y a_n90_210# VDD VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
+**devattr s=18700,450 d=37400,900
+X7 VDD A a_n90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.62333p ps=3u w=1.7u l=0.3u
+**devattr s=37400,900 d=18700,450
+.ends
+
