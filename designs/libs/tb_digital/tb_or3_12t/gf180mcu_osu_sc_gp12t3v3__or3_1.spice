@@ -1,0 +1,12 @@
+** sch_path: /foss/designs/work/12t_or3_1/gf180mcu_osu_sc_gp12t3v3__or3_1.sch
+.subckt gf180mcu_osu_sc_gp12t3v3__or3_1 A B C Y VDD VSS
+*.PININFO A:I B:I C:I Y:O VDD:B VSS:B
+X1 net1 A VDD VDD pfet_03v3 w=1.7u l=0.3u m=1
+X0 net2 B net1 VDD pfet_03v3 w=1.7u l=0.3u m=1
+X6 net3 C net2 VDD pfet_03v3 w=1.7u l=0.3u m=1
+X2 net3 A VSS VSS nfet_03v3 w=0.85u l=0.3u m=1
+X3 net3 B VSS VSS nfet_03v3 w=0.85u l=0.3u m=1
+X7 net3 C VSS VSS nfet_03v3 w=0.85u l=0.3u m=1
+X4 Y net3 VDD VDD pfet_03v3 w=1.7u l=0.3u m=1
+X5 Y net3 VSS VSS nfet_03v3 w=0.85u l=0.3u m=1
+.ends
