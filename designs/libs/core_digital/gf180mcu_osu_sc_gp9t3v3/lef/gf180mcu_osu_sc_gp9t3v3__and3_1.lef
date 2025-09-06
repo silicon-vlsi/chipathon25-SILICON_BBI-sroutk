@@ -59,9 +59,11 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_1
   PIN VSS
     USE GROUND ;
     PORT
+      LAYER Pwell ;
+        RECT -0.900 0.000 4.000 3.150 ;
       LAYER Metal1 ;
         RECT 2.250 0.700 2.500 1.500 ;
-        RECT -0.900 0.000 3.950 0.700 ;
+        RECT -0.900 0.000 4.000 0.700 ;
     END
   END VSS
   OBS
