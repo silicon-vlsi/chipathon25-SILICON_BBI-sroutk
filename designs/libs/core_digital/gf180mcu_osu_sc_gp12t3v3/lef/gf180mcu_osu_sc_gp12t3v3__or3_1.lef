@@ -1,0 +1,85 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO gf180mcu_osu_sc_gp12t3v3__or3_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp12t3v3__or3_1 ;
+  ORIGIN -6.850 0.000 ;
+  SIZE 4.750 BY 8.300 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 9.600 3.050 10.100 3.350 ;
+      LAYER Metal2 ;
+        RECT 9.600 3.000 10.100 3.400 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.750 4.350 9.250 4.650 ;
+      LAYER Metal2 ;
+        RECT 8.750 4.300 9.250 4.700 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.500 3.700 8.000 4.000 ;
+      LAYER Metal2 ;
+        RECT 7.500 3.650 8.000 4.050 ;
+    END
+  END C
+  PIN Y
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 10.800 4.200 11.050 7.250 ;
+        RECT 10.800 3.900 11.300 4.200 ;
+        RECT 10.800 1.050 11.050 3.900 ;
+      LAYER Metal2 ;
+        RECT 10.800 3.850 11.300 4.250 ;
+    END
+  END Y
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT 6.850 5.100 11.600 8.300 ;
+      LAYER Metal1 ;
+        RECT 6.850 7.600 11.600 8.300 ;
+        RECT 9.950 6.650 10.200 7.600 ;
+    END
+  END VDD
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT 6.850 0.000 11.600 5.100 ;
+      LAYER Metal1 ;
+        RECT 8.250 0.700 8.500 1.500 ;
+        RECT 9.950 0.700 10.200 1.500 ;
+        RECT 6.850 0.000 11.600 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT 7.400 6.300 7.650 7.250 ;
+        RECT 8.250 6.550 8.500 7.250 ;
+        RECT 9.100 6.550 9.350 7.250 ;
+        RECT 7.400 6.050 10.450 6.300 ;
+        RECT 8.250 2.200 8.500 6.050 ;
+        RECT 10.150 4.900 10.450 6.050 ;
+        RECT 7.400 1.950 9.350 2.200 ;
+        RECT 7.400 1.050 7.650 1.950 ;
+        RECT 9.100 1.050 9.350 1.950 ;
+      LAYER Metal2 ;
+        RECT 10.100 4.900 10.500 5.400 ;
+  END
+END gf180mcu_osu_sc_gp12t3v3__or3_1
+END LIBRARY
+
