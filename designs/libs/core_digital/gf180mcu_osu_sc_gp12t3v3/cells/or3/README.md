@@ -3,14 +3,16 @@
 
 Designer: Subhransu Das (OR3_1X) 
 
+## Design and Simulation
 
 
 
 
-SIMULATION RESULTS:-
+
+**SIMULATION RESULTS**
 
 
-**DELAY AND POWER CHARACTERIZATION **
+**DELAY AND POWER CHARACTERIZATION OR3_1X (3.3V)**
 
 | Metric | unit | Cl=5f | Cl=10f | Cl=50f |
 |--------|------|-------|--------|--------|
@@ -23,3 +25,11 @@ SIMULATION RESULTS:-
 
 **NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
 
+**SCHEMATIC**  
+![Schematic](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_or3_12t/xschem-or3_1.png)
+
+
+**PLOTS**  
+
+![Functional](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_or3_12t/plot-functional-or3_1.png)
+![Transient](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_or3_12t/plot-transient-or3_1.png)
