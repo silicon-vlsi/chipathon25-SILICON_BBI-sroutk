@@ -21,8 +21,8 @@ Designer: Aditi Patel (AND3_1X)
 **NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
 
 **SCHEMATIC**  
-![](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/xschem-and3_1.png)
+![schematic](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/xschem-and3_1.png)
 
 **PLOTS**  
-![](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/plot-functional-and3_1.png)  
-![](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/plot-transient-and3_1.png)
+![functional](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/plot-functional-and3_1.png)  
+![transient](https://github.com/subhransu-01/chipathon25-SILICON_BBI-sdas/blob/main/designs/libs/tb_digital/tb_and3_1_9t/plot-transient-and3_1.png)
