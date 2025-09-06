@@ -13,12 +13,12 @@ SIMULATION RESULTS:-
 
 | Metric | unit | Cl=5f | Cl=10f | Cl=50f |
 |--------|------|-------|--------|--------|
-| **trise** (10-90%)| ns | | | |
-| **tfall** (90-10%) | ns |  |  |  |
-| **tdel-rise** (50-50%) | ns |  |  |  |
-| **tdel-fall** (50-50%) | ns |  | |  |
-| **Ivddh**(avg) | uA |  |  |  |
-| **Ileak** | nA |  |  |  |
+| **trise** (10-90%)| ns | 0.09 | 0.13 | 0.50 |
+| **tfall** (90-10%) | ns | 0.06 | 0.09 | 0.40 |
+| **tdel-rise** (50-50%) | ns | 0.17 | 0.20 | 0.30 |
+| **tdel-fall** (50-50%) | ns | 0.10 | 0.12 | 0.20 |
+| **Ivddh**(avg) | uA | 3.90 | 5.56 | 18.81 |
+| **Ileak** | nA | 0.01 | 0.01 | 0.01 |
 
 **NOTE** 1) Input slew-rate is 100 ps 2) Average current is claculated over a 10 ns period.
 
