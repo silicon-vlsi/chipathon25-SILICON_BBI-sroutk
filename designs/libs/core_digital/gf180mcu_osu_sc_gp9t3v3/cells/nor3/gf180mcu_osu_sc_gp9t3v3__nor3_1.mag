@@ -1,6 +1,6 @@
 magic
 tech gf180mcuD
-timestamp 1757669460
+timestamp 1757691127
 << nwell >>
 rect 114 63 192 127
 << nmos >>
@@ -109,16 +109,17 @@ rect 114 113 192 115
 rect 125 104 130 113
 rect 125 89 130 91
 rect 176 104 181 106
-rect 153 89 161 90
-rect 153 83 154 89
-rect 160 83 161 89
-rect 176 83 181 91
-rect 142 78 181 83
+rect 176 90 181 91
+rect 166 89 181 90
+rect 166 88 167 89
+rect 142 83 167 88
+rect 173 83 181 89
 rect 126 43 128 49
 rect 134 43 136 49
 rect 125 28 130 30
 rect 125 14 130 23
-rect 142 28 147 78
+rect 142 28 147 83
+rect 166 82 181 83
 rect 164 68 170 69
 rect 153 63 164 68
 rect 153 57 154 63
@@ -132,7 +133,7 @@ rect 160 43 162 49
 rect 142 21 147 23
 rect 159 28 164 30
 rect 159 14 164 23
-rect 176 28 181 78
+rect 176 28 181 82
 rect 176 21 181 23
 rect 114 12 192 14
 rect 114 7 128 12
@@ -140,15 +141,15 @@ rect 133 7 173 12
 rect 178 7 192 12
 rect 114 0 192 7
 << via1 >>
-rect 154 83 160 89
+rect 167 83 173 89
 rect 128 43 134 49
 rect 154 57 160 63
 rect 154 43 160 49
 << metal2 >>
-rect 153 89 161 90
-rect 153 83 154 89
-rect 160 83 161 89
-rect 153 82 161 83
+rect 166 89 174 90
+rect 166 83 167 89
+rect 173 83 174 89
+rect 166 82 174 83
 rect 153 63 161 64
 rect 153 57 154 63
 rect 160 57 161 63
@@ -172,7 +173,7 @@ flabel metal2 126 42 136 50 0 FreeSans 48 0 0 0 A
 port 1 nsew
 flabel metal2 153 56 161 64 0 FreeSans 48 0 0 0 C
 port 3 nsew
-flabel metal2 153 82 161 90 0 FreeSans 48 0 0 0 Y
+flabel metal2 166 82 174 90 0 FreeSans 48 0 0 0 Y
 port 5 nsew
 << properties >>
 string FIXED_BBOX 114 0 192 127
