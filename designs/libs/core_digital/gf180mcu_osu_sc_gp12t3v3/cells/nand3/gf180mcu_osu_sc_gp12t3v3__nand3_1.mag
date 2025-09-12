@@ -1,10 +1,8 @@
 magic
 tech gf180mcuD
-timestamp 1756569562
+timestamp 1757661304
 << nwell >>
 rect -17 83 61 166
-<< pwell >>
-rect -17 0 61 83
 << nmos >>
 rect 2 21 8 38
 rect 19 21 25 38
@@ -78,25 +76,25 @@ rect -3 92 -1 98
 rect 5 92 8 98
 rect -3 90 8 92
 rect 2 38 8 90
-rect 19 52 25 111
-rect 14 50 25 52
-rect 14 44 16 50
-rect 22 44 25 50
-rect 14 42 25 44
-rect 19 38 25 42
-rect 36 80 42 111
-rect 36 78 47 80
-rect 36 71 39 78
-rect 45 71 47 78
-rect 36 69 47 71
-rect 36 38 42 69
+rect 19 58 25 111
+rect 14 56 25 58
+rect 14 50 16 56
+rect 22 50 25 56
+rect 14 48 25 50
+rect 19 38 25 48
+rect 36 82 42 111
+rect 36 80 49 82
+rect 36 74 41 80
+rect 47 74 49 80
+rect 36 72 49 74
+rect 36 38 42 72
 rect 2 16 8 21
 rect 19 16 25 21
 rect 36 16 42 21
 << polycontact >>
 rect -1 92 5 98
-rect 16 44 22 50
-rect 39 71 45 78
+rect 16 50 22 56
+rect 41 74 47 80
 << metal1 >>
 rect -17 159 61 166
 rect -17 154 11 159
@@ -111,27 +109,26 @@ rect -6 109 -1 113
 rect 28 109 33 113
 rect 45 143 50 152
 rect 45 111 50 113
-rect -6 108 33 109
-rect -6 107 35 108
-rect -6 104 27 107
-rect 25 101 27 104
-rect 33 101 35 107
-rect 25 100 35 101
+rect -6 108 35 109
+rect -6 104 27 108
+rect 25 102 27 104
+rect 33 102 35 108
+rect 25 100 35 102
 rect -2 98 6 99
 rect -2 92 -1 98
 rect 5 92 6 98
 rect -2 91 6 92
 rect 28 70 33 100
-rect 38 78 46 79
-rect 38 71 39 78
-rect 45 71 46 78
-rect 38 70 46 71
+rect 40 80 48 81
+rect 40 74 41 80
+rect 47 74 48 80
+rect 40 73 48 74
 rect -6 65 33 70
 rect -6 28 -1 65
-rect 15 50 23 51
-rect 15 44 16 50
-rect 22 44 23 50
-rect 15 43 23 44
+rect 12 56 20 57
+rect 12 50 13 56
+rect 22 50 24 56
+rect 12 49 20 50
 rect -6 21 -1 23
 rect 45 36 50 38
 rect 45 14 50 23
@@ -140,40 +137,41 @@ rect -17 7 43 12
 rect 48 7 61 12
 rect -17 0 61 7
 << via1 >>
-rect 27 101 33 107
+rect 27 102 33 108
 rect -1 92 5 98
-rect 39 71 45 78
-rect 16 44 22 50
+rect 41 74 47 80
+rect 13 50 16 56
+rect 16 50 19 56
 << metal2 >>
-rect 26 107 35 108
-rect 26 101 27 107
-rect 33 101 35 107
-rect 26 100 35 101
+rect 26 108 34 109
+rect 26 102 27 108
+rect 33 102 34 108
+rect 26 101 34 102
 rect -2 98 6 99
 rect -2 92 -1 98
 rect 5 92 6 98
 rect -2 91 6 92
-rect 38 78 46 79
-rect 38 71 39 78
-rect 45 71 46 78
-rect 38 70 46 71
-rect 15 50 23 51
-rect 15 44 16 50
-rect 22 44 23 50
-rect 15 43 23 44
+rect 40 80 48 81
+rect 40 74 41 80
+rect 47 74 48 80
+rect 40 73 48 74
+rect 12 56 20 57
+rect 12 50 13 56
+rect 19 50 20 56
+rect 12 49 20 50
 << labels >>
 flabel metal2 -2 91 6 99 0 FreeSans 48 0 0 0 A
 port 1 nsew
-flabel metal2 15 43 23 51 0 FreeSans 48 0 0 0 B
-port 2 nsew
-flabel metal2 26 100 35 108 0 FreeSans 48 0 0 0 Y
-port 3 nsew
-flabel metal2 38 70 46 79 0 FreeSans 48 0 0 0 C
-port 4 nsew
 flabel metal1 -6 155 6 162 0 FreeSans 48 0 0 0 VDD
 port 5 nsew
 flabel metal1 -6 4 6 11 0 FreeSans 48 0 0 0 VSS
 port 6 nsew
+flabel metal2 12 49 20 57 0 FreeSans 48 0 0 0 B
+port 2 nsew
+flabel metal2 26 101 34 109 0 FreeSans 48 0 0 0 Y
+port 3 nsew
+flabel metal2 40 73 48 81 0 FreeSans 48 0 0 0 C
+port 4 nsew
 << properties >>
 string FIXED_BBOX -17 0 61 166
 << end >>
