@@ -3,10 +3,12 @@ VERSION 5.7 ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
 MACRO gf180mcu_osu_sc_gp12t3v3__and3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp12t3v3__and3_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 4.800 BY 8.300 ;
+  SYMMETRY XY ;
+  SITE gf180mcu_osu_sc_gp12t3v3 ;
   PIN A
     ANTENNAGATEAREA 0.765000 ;
     PORT

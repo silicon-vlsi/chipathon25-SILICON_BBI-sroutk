@@ -3,10 +3,12 @@ VERSION 5.7 ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
 MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__nor3_1 ;
   ORIGIN -5.700 0.000 ;
   SIZE 3.900 BY 6.350 ;
+  SYMMETRY XY ;
+  SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A
     ANTENNAGATEAREA 0.765000 ;
     PORT
@@ -51,14 +53,13 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
     ANTENNADIFFAREA 1.742500 ;
     PORT
       LAYER Metal1 ;
-        RECT 8.800 4.500 9.050 5.300 ;
-        RECT 8.300 4.400 9.050 4.500 ;
-        RECT 7.100 4.150 9.050 4.400 ;
-        RECT 7.100 1.050 7.350 4.150 ;
-        RECT 8.300 4.100 9.050 4.150 ;
-        RECT 8.800 1.050 9.050 4.100 ;
+        RECT 7.650 4.150 8.050 4.500 ;
+        RECT 8.800 4.150 9.050 5.300 ;
+        RECT 7.100 3.900 9.050 4.150 ;
+        RECT 7.100 1.050 7.350 3.900 ;
+        RECT 8.800 1.050 9.050 3.900 ;
       LAYER Metal2 ;
-        RECT 8.300 4.100 8.700 4.500 ;
+        RECT 7.650 4.100 8.050 4.500 ;
     END
   END Y
   PIN VSS
