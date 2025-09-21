@@ -7,7 +7,7 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nand3_1
   FOREIGN gf180mcu_osu_sc_gp12t3v3__nand3_1 ;
   ORIGIN 0.850 0.000 ;
   SIZE 3.900 BY 8.300 ;
-  SYMMETRY XY ;
+  SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp12t3v3 ;
   PIN A
     ANTENNAGATEAREA 0.765000 ;
