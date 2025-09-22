@@ -1,0 +1,5 @@
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__ant.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__ant Y1 VDD VSS
+.ends
+

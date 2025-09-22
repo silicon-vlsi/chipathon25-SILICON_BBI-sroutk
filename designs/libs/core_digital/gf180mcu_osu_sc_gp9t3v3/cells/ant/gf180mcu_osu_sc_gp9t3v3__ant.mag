@@ -1,0 +1,70 @@
+magic
+tech gf180mcuD
+timestamp 1758534885
+<< nwell >>
+rect 51 63 86 127
+<< ndiff >>
+rect 61 36 76 38
+rect 61 23 66 36
+rect 71 23 76 36
+rect 61 21 76 23
+<< pdiff >>
+rect 61 104 76 106
+rect 61 74 66 104
+rect 71 74 76 104
+rect 61 72 76 74
+<< ndiffc >>
+rect 66 23 71 36
+<< pdiffc >>
+rect 66 74 71 104
+<< psubdiff >>
+rect 61 12 76 14
+rect 61 7 66 12
+rect 71 7 76 12
+rect 61 5 76 7
+<< nsubdiff >>
+rect 61 120 76 122
+rect 61 115 66 120
+rect 71 115 76 120
+rect 61 113 76 115
+<< psubdiffcont >>
+rect 66 7 71 12
+<< nsubdiffcont >>
+rect 66 115 71 120
+<< metal1 >>
+rect 51 120 86 127
+rect 51 115 66 120
+rect 71 115 86 120
+rect 51 113 86 115
+rect 66 104 71 106
+rect 66 56 71 74
+rect 64 55 72 56
+rect 64 49 65 55
+rect 71 49 72 55
+rect 64 48 72 49
+rect 66 36 71 48
+rect 66 21 71 23
+rect 51 12 86 14
+rect 51 7 66 12
+rect 71 7 86 12
+rect 51 0 86 7
+<< via1 >>
+rect 65 49 71 55
+<< metal2 >>
+rect 64 55 72 56
+rect 64 49 65 55
+rect 71 49 72 55
+rect 64 48 72 49
+<< labels >>
+flabel metal2 64 48 72 56 0 FreeSans 32 0 0 0 Y1
+port 1 nsew
+flabel metal1 61 122 72 126 0 FreeSans 32 0 0 0 VDD
+port 2 nsew
+flabel metal1 61 1 72 5 0 FreeSans 32 0 0 0 VSS
+port 3 nsew
+<< properties >>
+string FIXED_BBOX 51 0 86 127
+string LEFclass CORE
+string LEFsite gf180mcu_osu_sc_gp9t3v3
+string LEFsymmetry X Y
+<< end >>
