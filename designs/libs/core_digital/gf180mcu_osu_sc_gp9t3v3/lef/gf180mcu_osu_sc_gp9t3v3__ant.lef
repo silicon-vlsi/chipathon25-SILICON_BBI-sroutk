@@ -10,7 +10,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__ant
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN Y1
-    ANTENNADIFFAREA 1.912500 ;
+    ANTENNADIFFAREA 0.637500 ;
     PORT
       LAYER Metal1 ;
         RECT 3.300 2.800 3.550 5.300 ;
